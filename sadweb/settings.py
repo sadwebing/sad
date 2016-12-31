@@ -166,7 +166,7 @@ LOGGING = {
 }
 
 SALT_API = {
-    'url':"https://172.20.10.107:8000/",
+    'url':"https://192.168.100.109:8000/",
     'user':"saltapi",
     'password':"ag866.com",
 }

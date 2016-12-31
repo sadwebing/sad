@@ -24,6 +24,7 @@ class scriptApi(SaltAPI):
 
 #print settings.DATABASES['default']['HOST']
 
+#获取salt接口，接入rest接口，获取salt信息
 sapi = SaltAPI(
     url=settings.SALT_API['url'],
     username=settings.SALT_API['user'],

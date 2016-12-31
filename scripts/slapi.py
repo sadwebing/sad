@@ -34,6 +34,7 @@ try:
     ret['num_miniup'] = len(mini_up)
     ret['num_minidown'] = len(mini_down)
     ret['num_miniall'] = ret['num_miniup'] + ret['num_minidown']
+    print "%s %s %s" %(ret['num_miniup'], ret['num_minidown'], ret['num_miniall'])
 
 except Exception,e:
     print str(e)
