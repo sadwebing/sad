@@ -838,3 +838,2208 @@ error: [Errno 32] Broken pipe
 [31/Dec/2016 09:02:47] "GET /index/index/?noCache=1483146168028 HTTP/1.0" 200 6523
 [31/Dec/2016 09:02:48] "GET /keys/show/ HTTP/1.0" 200 137817
 [31/Dec/2016 09:02:49] "GET /keys/show/?noCache=1483146169617 HTTP/1.0" 200 137817
+[31/Dec/2016 09:43:19] "GET /keys/show/ HTTP/1.0" 200 137820
+[31/Dec/2016 09:43:20] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 09:43:20] "GET /keys/show/?noCache=1483148600657 HTTP/1.0" 200 137820
+[31/Dec/2016 09:44:57] "GET /index/index/ HTTP/1.0" 200 6523
+[31/Dec/2016 09:44:57] "GET /index/index/?noCache=1483148698219 HTTP/1.0" 200 6523
+[31/Dec/2016 09:46:31] "GET /keys/show/ HTTP/1.0" 200 137820
+[31/Dec/2016 09:46:32] "GET /keys/show/?noCache=1483148792613 HTTP/1.0" 200 137820
+[31/Dec/2016 09:47:51] "GET /keys/show/ HTTP/1.0" 200 137820
+[31/Dec/2016 09:47:52] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 09:47:52] "GET /keys/show/?noCache=1483148872421 HTTP/1.0" 200 137820
+[31/Dec/2016 10:04:32] "GET /keys/show/ HTTP/1.0" 200 137833
+[31/Dec/2016 10:04:33] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 10:04:34] "GET /keys/show/?noCache=1483149874121 HTTP/1.0" 200 137833
+[31/Dec/2016 10:05:18] "GET /keys/show/ HTTP/1.0" 200 137850
+[31/Dec/2016 10:05:19] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 10:05:19] "GET /keys/show/?noCache=1483149919918 HTTP/1.0" 200 137850
+[31/Dec/2016 10:05:21] "GET /index/index/ HTTP/1.0" 200 6523
+[31/Dec/2016 10:05:21] "GET /index/index/?noCache=1483149921513 HTTP/1.0" 200 6523
+[31/Dec/2016 10:05:22] "GET /keys/show/ HTTP/1.0" 200 137850
+[31/Dec/2016 10:05:23] "GET /keys/show/?noCache=1483149923547 HTTP/1.0" 200 137850
+[31/Dec/2016 10:07:33] "GET /keys/show/ HTTP/1.0" 200 137850
+[31/Dec/2016 10:07:34] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 10:07:35] "GET /keys/show/?noCache=1483150055027 HTTP/1.0" 200 137850
+[31/Dec/2016 10:09:44] "GET /accounts/logout HTTP/1.0" 301 0
+[31/Dec/2016 10:09:44] "GET /accounts/logout/ HTTP/1.0" 200 9
+[31/Dec/2016 10:09:47] "GET /keys/show/?noCache=1483150187361 HTTP/1.0" 200 137850
+[31/Dec/2016 10:09:51] "GET /index/index/?noCache=1483150192058 HTTP/1.0" 200 6523
+[31/Dec/2016 10:09:53] "GET /accounts/logout/ HTTP/1.0" 200 9
+[31/Dec/2016 10:09:57] "GET / HTTP/1.0" 200 6523
+[31/Dec/2016 10:09:57] "GET /?noCache=1483150197969 HTTP/1.0" 200 6523
+[31/Dec/2016 10:10:05] "GET /accounts/logout/ HTTP/1.0" 200 9
+[31/Dec/2016 10:10:09] "GET /?noCache=1483150209356 HTTP/1.0" 200 6523
+[31/Dec/2016 10:10:27] "GET / HTTP/1.0" 302 0
+[31/Dec/2016 10:10:27] "GET /accounts/login/?next=/ HTTP/1.0" 200 3229
+[31/Dec/2016 10:10:28] "GET /static/bootstrap/3.3.4/css/bootstrap.min.css HTTP/1.0" 200 117305
+[31/Dec/2016 10:10:28] "GET /static/theme/cover.css HTTP/1.0" 200 2531
+[31/Dec/2016 10:10:28] "GET /static/otherjs/jquery.min.js HTTP/1.0" 200 95966
+[31/Dec/2016 10:10:28] "GET /static/bootstrap/3.3.4/js/bootstrap.min.js HTTP/1.0" 200 35951
+[31/Dec/2016 10:10:28] "GET /static/otherjs/ie-emulation-modes-warning.js HTTP/1.0" 200 2132
+[31/Dec/2016 10:10:28] "GET /static/otherjs/docs.min.js HTTP/1.0" 200 44128
+[31/Dec/2016 10:10:28] "GET /static/otherjs/cloud.js HTTP/1.0" 200 46136
+[31/Dec/2016 10:10:28] "GET /static/otherjs/ie10-viewport-bug-workaround.js HTTP/1.0" 200 694
+[31/Dec/2016 10:10:29] "GET /static/otherjs/ga.js HTTP/1.0" 200 40948
+[31/Dec/2016 10:10:29] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 10:10:29] "GET /accounts/login/?noCache=1483150230254 HTTP/1.0" 200 3229
+[31/Dec/2016 10:10:31] "POST /accounts/login/?next=/ HTTP/1.0" 302 0
+[31/Dec/2016 10:10:31] "GET / HTTP/1.0" 200 6523
+[31/Dec/2016 10:10:31] "GET /static/bootstrap/3.3.4/css/bootstrap-theme.min.css HTTP/1.0" 200 19963
+[31/Dec/2016 10:10:31] "GET /static/theme/dashboard.css HTTP/1.0" 200 1557
+[31/Dec/2016 10:10:31] "GET /static/otherjs/dzhops.js HTTP/1.0" 200 14853
+[31/Dec/2016 10:10:31] "GET /static/img/sa.jpg HTTP/1.0" 200 5895
+[31/Dec/2016 10:10:31] "GET /static/bootstrap/3.3.4/fonts/glyphicons-halflings-regular.woff2 HTTP/1.0" 200 18028
+[31/Dec/2016 10:10:31] "GET /?noCache=1483150232054 HTTP/1.0" 200 6523
+[31/Dec/2016 10:10:34] "GET /keys/show/ HTTP/1.0" 200 137850
+[31/Dec/2016 10:10:35] "GET /keys/show/?noCache=1483150235162 HTTP/1.0" 200 137850
+[31/Dec/2016 10:10:49] "GET /keys/show/ HTTP/1.0" 200 137850
+[31/Dec/2016 10:10:49] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 10:10:50] "GET /keys/show/?noCache=1483150250083 HTTP/1.0" 200 137850
+[31/Dec/2016 10:10:51] "GET /keys/show/ HTTP/1.0" 200 137850
+[31/Dec/2016 10:10:52] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 10:10:52] "GET /keys/show/?noCache=1483150252662 HTTP/1.0" 200 137850
+[31/Dec/2016 10:11:43] "GET /deploy/deploy/ HTTP/1.0" 200 6620
+[31/Dec/2016 10:11:44] "GET /deploy/deploy/?noCache=1483150304319 HTTP/1.0" 200 6620
+[31/Dec/2016 10:11:46] "GET /index/index/ HTTP/1.0" 200 6523
+[31/Dec/2016 10:11:46] "GET /index/index/?noCache=1483150307288 HTTP/1.0" 200 6523
+[31/Dec/2016 10:11:48] "GET /deploy/deploy/ HTTP/1.0" 200 6620
+[31/Dec/2016 10:11:48] "GET /deploy/deploy/?noCache=1483150308606 HTTP/1.0" 200 6620
+[31/Dec/2016 10:11:48] "GET /keys/show/ HTTP/1.0" 200 137850
+[31/Dec/2016 10:11:50] "GET /keys/show/?noCache=1483150310006 HTTP/1.0" 200 137850
+[31/Dec/2016 10:12:33] "GET /accounts/logout HTTP/1.0" 301 0
+[31/Dec/2016 10:12:33] "GET /accounts/logout/ HTTP/1.0" 200 9
+2-31 08:19:02
+2016-12-29 16:00:01
+2016-12-29 16:00:06
+2016-12-31 08:19:02
+2016-12-29 16:00:01
+2016-12-29 16:00:06
+2016-12-31 08:19:02
+2016-12-29 16:00:01
+2016-12-29 16:00:06
+----------------------------------------
+Exception happened during processing of request from ('192.168.100.107', 58175)
+----------------------------------------
+2016-12-31 08:20:02
+2016-12-31 08:20:01
+2016-12-31 08:20:23
+2016-12-31 08:20:02
+2016-12-31 08:20:01
+2016-12-31 08:20:23
+2016-12-31 08:21:02
+2016-12-31 08:20:01
+2016-12-31 08:20:23
+2016-12-31 08:21:02
+2016-12-31 08:20:01
+2016-12-31 08:20:23
+2016-12-31 08:50:02
+2016-12-31 08:50:01
+2016-12-31 08:40:24
+2016-12-31 08:50:02
+2016-12-31 08:50:01
+2016-12-31 08:40:24
+2016-12-31 08:52:02
+2016-12-31 08:50:01
+2016-12-31 08:50:25
+2016-12-31 08:52:02
+2016-12-31 08:50:01
+2016-12-31 08:50:25
+2016-12-31 09:01:02
+2016-12-31 09:00:01
+2016-12-31 09:00:19
+2016-12-31 09:01:02
+2016-12-31 09:00:01
+2016-12-31 09:00:19
+2016-12-31 09:02:02
+2016-12-31 09:00:01
+2016-12-31 09:00:19
+2016-12-31 09:02:02
+2016-12-31 09:00:01
+2016-12-31 09:00:19
+2016-12-31 09:44:02
+2016-12-31 09:40:01
+2016-12-31 09:40:20
+2016-12-31 09:44:02
+2016-12-31 09:40:01
+2016-12-31 09:40:20
+2016-12-31 10:05:02
+2016-12-31 10:05:01
+2016-12-31 10:00:19
+2016-12-31 10:05:02
+2016-12-31 10:05:01
+2016-12-31 10:00:19
+2016-12-31 10:09:02
+2016-12-31 10:05:01
+2016-12-31 10:00:19
+2016-12-31 10:09:02
+2016-12-31 10:05:01
+2016-12-31 10:00:19
+2016-12-31 10:09:02
+2016-12-31 10:05:01
+2016-12-31 10:00:19
+2016-12-31 10:10:02
+2016-12-31 10:10:02
+2016-12-31 10:00:19
+2016-12-31 10:10:02
+2016-12-31 10:10:02
+2016-12-31 10:10:20
+2016-12-31 10:10:02
+2016-12-31 10:10:02
+2016-12-31 10:10:20
+2016-12-31 10:11:02
+2016-12-31 10:10:02
+2016-12-31 10:10:20
+2016-12-31 10:11:02
+2016-12-31 10:10:02
+2016-12-31 10:10:20
+Internal Server Error: /accounts/logout/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 103, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.6/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/usr/local/sadweb/sadweb/urls.py", line 18, in <module>
+    url(r'^accounts/', include('index.urls')),
+  File "/usr/lib/python2.6/site-packages/django/conf/urls/__init__.py", line 25, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.6/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/usr/local/sadweb/index/urls.py", line 3, in <module>
+    from index import views
+  File "/usr/local/sadweb/index/views.py", line 198
+     3return response
+           ^
+ SyntaxError: invalid syntax
+[31/Dec/2016 10:15:33] "GET /accounts/logout/ HTTP/1.0" 500 94783
+Internal Server Error: /keys/show/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 103, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.6/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/usr/local/sadweb/sadweb/urls.py", line 18, in <module>
+    url(r'^accounts/', include('index.urls')),
+  File "/usr/lib/python2.6/site-packages/django/conf/urls/__init__.py", line 25, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.6/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/usr/local/sadweb/index/urls.py", line 3, in <module>
+    from index import views
+  File "/usr/local/sadweb/index/views.py", line 198
+     3return response
+           ^
+ SyntaxError: invalid syntax
+[31/Dec/2016 10:15:36] "GET /keys/show/?noCache=1483150536309 HTTP/1.0" 500 94849
+Internal Server Error: /accounts/logout/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 103, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.6/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/usr/local/sadweb/sadweb/urls.py", line 18, in <module>
+    url(r'^accounts/', include('index.urls')),
+  File "/usr/lib/python2.6/site-packages/django/conf/urls/__init__.py", line 25, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.6/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/usr/local/sadweb/index/urls.py", line 3, in <module>
+    from index import views
+  File "/usr/local/sadweb/index/views.py", line 198
+     3return response
+           ^
+ SyntaxError: invalid syntax
+[31/Dec/2016 10:15:37] "GET /accounts/logout/ HTTP/1.0" 500 94591
+[31/Dec/2016 10:16:05] "GET /accounts/logout/ HTTP/1.0" 302 0
+[31/Dec/2016 10:16:05] "GET /login/ HTTP/1.0" 404 2588
+Validating models...
+
+0 errors found
+December 31, 2016 - 10:15:32
+Django version 1.5, using settings 'sadweb.settings'
+Development server is running at http://0.0.0.0:12000/
+Quit the server with CONTROL-C.
+[31/Dec/2016 10:16:32] "GET /login/ HTTP/1.0" 404 2588
+[31/Dec/2016 10:16:35] "GET /keys/show/?noCache=1483150595112 HTTP/1.0" 200 137850
+[31/Dec/2016 10:16:36] "GET /accounts/logout/ HTTP/1.0" 302 0
+[31/Dec/2016 10:16:36] "GET /accounts/login/ HTTP/1.0" 200 3229
+[31/Dec/2016 10:16:36] "GET /accounts/login/?noCache=1483150596744 HTTP/1.0" 200 3229
+[31/Dec/2016 10:16:38] "POST /accounts/login/ HTTP/1.0" 302 0
+[31/Dec/2016 10:16:38] "GET /accounts/profile/ HTTP/1.0" 404 3231
+Validating models...
+
+0 errors found
+December 31, 2016 - 10:16:30
+Django version 1.5, using settings 'sadweb.settings'
+Development server is running at http://0.0.0.0:12000/
+Quit the server with CONTROL-C.
+[31/Dec/2016 10:23:10] "GET /accounts/login/ HTTP/1.0" 200 3229
+[31/Dec/2016 10:23:10] "GET /accounts/login/?noCache=1483150991228 HTTP/1.0" 200 3229
+[31/Dec/2016 10:23:12] "POST /accounts/login/ HTTP/1.0" 302 0
+[31/Dec/2016 10:23:12] "GET /accounts/profile/ HTTP/1.0" 404 3231
+[31/Dec/2016 10:23:14] "GET /accounts/login/ HTTP/1.0" 200 3229
+[31/Dec/2016 10:23:14] "GET /accounts/login/?noCache=1483150994905 HTTP/1.0" 200 3229
+[31/Dec/2016 10:23:21] "GET / HTTP/1.0" 200 6523
+[31/Dec/2016 10:23:21] "GET /?noCache=1483151001904 HTTP/1.0" 200 6523
+[31/Dec/2016 10:23:23] "GET /accounts/logout/ HTTP/1.0" 302 0
+[31/Dec/2016 10:23:23] "GET /index/ HTTP/1.0" 404 3189
+Validating models...
+
+0 errors found
+December 31, 2016 - 10:23:09
+Django version 1.5, using settings 'sadweb.settings'
+Development server is running at http://0.0.0.0:12000/
+Quit the server with CONTROL-C.
+2016-12-31 10:23:02
+2016-12-31 10:20:01
+2016-12-31 10:20:20
+2016-12-31 10:23:02
+2016-12-31 10:20:01
+2016-12-31 10:20:20
+[31/Dec/2016 10:23:36] "GET / HTTP/1.0" 200 6523
+[31/Dec/2016 10:23:36] "GET /?noCache=1483151016903 HTTP/1.0" 200 6523
+[31/Dec/2016 10:23:37] "GET /accounts/logout/ HTTP/1.0" 302 0
+[31/Dec/2016 10:23:37] "GET /index HTTP/1.0" 404 2585
+[31/Dec/2016 10:23:47] "GET /?noCache=1483151027953 HTTP/1.0" 200 6523
+Validating models...
+
+0 errors found
+December 31, 2016 - 10:23:35
+Django version 1.5, using settings 'sadweb.settings'
+Development server is running at http://0.0.0.0:12000/
+Quit the server with CONTROL-C.
+2016-12-31 10:23:02
+2016-12-31 10:20:01
+2016-12-31 10:20:20
+2016-12-31 10:23:02
+2016-12-31 10:20:01
+2016-12-31 10:20:20
+2016-12-31 10:23:02
+2016-12-31 10:20:01
+2016-12-31 10:20:20
+[31/Dec/2016 10:23:59] "GET /accounts/logout/ HTTP/1.0" 302 0
+[31/Dec/2016 10:23:59] "GET /index/index HTTP/1.0" 301 0
+[31/Dec/2016 10:23:59] "GET /index/index/ HTTP/1.0" 200 6523
+[31/Dec/2016 10:23:59] "GET /index/index/?noCache=1483151039988 HTTP/1.0" 200 6523
+[31/Dec/2016 10:24:01] "GET /accounts/logout/ HTTP/1.0" 302 0
+[31/Dec/2016 10:24:01] "GET /index/index/ HTTP/1.0" 200 6523
+[31/Dec/2016 10:24:01] "GET /index/index/?noCache=1483151041819 HTTP/1.0" 200 6523
+[31/Dec/2016 10:24:02] "GET /accounts/logout/ HTTP/1.0" 302 0
+[31/Dec/2016 10:24:02] "GET /index/index/ HTTP/1.0" 200 6523
+[31/Dec/2016 10:24:02] "GET /index/index/?noCache=1483151042639 HTTP/1.0" 200 6523
+[31/Dec/2016 10:24:02] "GET /accounts/logout/ HTTP/1.0" 302 0
+[31/Dec/2016 10:24:02] "GET /index/index/ HTTP/1.0" 200 6523
+[31/Dec/2016 10:24:02] "GET /index/index/?noCache=1483151043329 HTTP/1.0" 200 6523
+[31/Dec/2016 10:24:03] "GET /accounts/logout/ HTTP/1.0" 302 0
+[31/Dec/2016 10:24:03] "GET /index/index/ HTTP/1.0" 200 6523
+[31/Dec/2016 10:24:03] "GET /index/index/?noCache=1483151043901 HTTP/1.0" 200 6523
+[31/Dec/2016 10:24:03] "GET /accounts/logout/ HTTP/1.0" 302 0
+[31/Dec/2016 10:24:03] "GET /index/index/ HTTP/1.0" 200 6523
+[31/Dec/2016 10:24:04] "GET /index/index/?noCache=1483151044413 HTTP/1.0" 200 6523
+[31/Dec/2016 10:24:04] "GET /accounts/logout/ HTTP/1.0" 302 0
+[31/Dec/2016 10:24:04] "GET /index/index/ HTTP/1.0" 200 6523
+[31/Dec/2016 10:24:04] "GET /index/index/?noCache=1483151044922 HTTP/1.0" 200 6523
+[31/Dec/2016 10:24:04] "GET /accounts/logout/ HTTP/1.0" 302 0
+[31/Dec/2016 10:24:04] "GET /index/index/ HTTP/1.0" 200 6523
+[31/Dec/2016 10:24:05] "GET /index/index/?noCache=1483151045420 HTTP/1.0" 200 6523
+[31/Dec/2016 10:24:05] "GET /accounts/logout/ HTTP/1.0" 302 0
+[31/Dec/2016 10:24:05] "GET /index/index/ HTTP/1.0" 200 6523
+[31/Dec/2016 10:24:06] "GET /index/index/?noCache=1483151046380 HTTP/1.0" 200 6523
+Validating models...
+
+0 errors found
+December 31, 2016 - 10:23:58
+Django version 1.5, using settings 'sadweb.settings'
+Development server is running at http://0.0.0.0:12000/
+Quit the server with CONTROL-C.
+2016-12-31 10:23:02
+2016-12-31 10:20:01
+2016-12-31 10:20:20
+2016-12-31 10:23:02
+2016-12-31 10:20:01
+2016-12-31 10:20:20
+2016-12-31 10:23:02
+2016-12-31 10:20:01
+2016-12-31 10:20:20
+2016-12-31 10:23:02
+2016-12-31 10:20:01
+2016-12-31 10:20:20
+2016-12-31 10:23:02
+2016-12-31 10:20:01
+2016-12-31 10:20:20
+2016-12-31 10:23:02
+2016-12-31 10:20:01
+2016-12-31 10:20:20
+2016-12-31 10:24:02
+2016-12-31 10:20:01
+2016-12-31 10:20:20
+2016-12-31 10:24:02
+2016-12-31 10:20:01
+2016-12-31 10:20:20
+2016-12-31 10:24:02
+2016-12-31 10:20:01
+2016-12-31 10:20:20
+2016-12-31 10:24:02
+2016-12-31 10:20:01
+2016-12-31 10:20:20
+2016-12-31 10:24:02
+2016-12-31 10:20:01
+2016-12-31 10:20:20
+2016-12-31 10:24:02
+2016-12-31 10:20:01
+2016-12-31 10:20:20
+2016-12-31 10:24:02
+2016-12-31 10:20:01
+2016-12-31 10:20:20
+2016-12-31 10:24:02
+2016-12-31 10:20:01
+2016-12-31 10:20:20
+2016-12-31 10:24:02
+2016-12-31 10:20:01
+2016-12-31 10:20:20
+2016-12-31 10:24:02
+2016-12-31 10:20:01
+2016-12-31 10:20:20
+2016-12-31 10:24:02
+2016-12-31 10:20:01
+2016-12-31 10:20:20
+2016-12-31 10:24:02
+2016-12-31 10:20:01
+2016-12-31 10:20:20
+Internal Server Error: /index/index/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 103, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.6/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/usr/local/sadweb/sadweb/urls.py", line 18, in <module>
+    url(r'^accounts/', include('index.urls')),
+  File "/usr/lib/python2.6/site-packages/django/conf/urls/__init__.py", line 25, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.6/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/usr/local/sadweb/index/urls.py", line 9, in <module>
+    url(r'^regist/$', views.regist, name='regist'),
+AttributeError: 'module' object has no attribute 'regist'
+[31/Dec/2016 10:35:24] "GET /index/index/ HTTP/1.0" 500 95928
+Internal Server Error: /index/index/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/index/views.py", line 137, in index
+    'stret': streslut
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 411, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=context.current_app)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 496, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 382, in _reverse_with_prefix
+    possibilities = self.reverse_dict.getlist(lookup_view)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 297, in reverse_dict
+    self._populate()
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 286, in _populate
+    lookups.appendlist(pattern.callback, (bits, p_pattern, pattern.default_args))
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/lib/python2.6/site-packages/django/utils/functional.py", line 29, in wrapper
+    result = func(*args)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 118, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import index.views.TimeAfter. View does not exist in module index.views.
+[31/Dec/2016 10:36:48] "GET /index/index/ HTTP/1.0" 500 200103
+Validating models...
+
+0 errors found
+December 31, 2016 - 10:35:07
+Django version 1.5, using settings 'sadweb.settings'
+Development server is running at http://0.0.0.0:12000/
+Quit the server with CONTROL-C.
+2016-12-31 10:36:02
+2016-12-31 10:35:02
+2016-12-31 10:30:20
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 103, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.6/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/usr/local/sadweb/sadweb/urls.py", line 18, in <module>
+    url(r'^accounts/', include('index.urls')),
+  File "/usr/lib/python2.6/site-packages/django/conf/urls/__init__.py", line 25, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.6/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/usr/local/sadweb/index/urls.py", line 10, in <module>
+    url(r'^logout/$', views.logout, name='logout'),
+NameError: name 'views' is not defined
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 103, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.6/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/usr/local/sadweb/sadweb/urls.py", line 18, in <module>
+    url(r'^accounts/', include('index.urls')),
+  File "/usr/lib/python2.6/site-packages/django/conf/urls/__init__.py", line 25, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.6/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/usr/local/sadweb/index/urls.py", line 10, in <module>
+    url(r'^logout/$', views.logout, name='logout'),
+NameError: name 'views' is not defined
+Traceback (most recent call last):
+  File "/usr/lib64/python2.6/wsgiref/handlers.py", line 94, in run
+    self.finish_response()
+  File "/usr/lib64/python2.6/wsgiref/handlers.py", line 135, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.6/wsgiref/handlers.py", line 218, in write
+    self.send_headers()
+  File "/usr/lib64/python2.6/wsgiref/handlers.py", line 274, in send_headers
+    self.send_preamble()
+  File "/usr/lib64/python2.6/wsgiref/handlers.py", line 200, in send_preamble
+    'Date: %s\r\n' % format_date_time(time.time())
+  File "/usr/lib64/python2.6/socket.py", line 318, in write
+    self.flush()
+  File "/usr/lib64/python2.6/socket.py", line 297, in flush
+    self._sock.sendall(buffer(data, write_offset, buffer_size))
+error: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/usr/lib64/python2.6/SocketServer.py", line 560, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python2.6/SocketServer.py", line 322, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.6/site-packages/django/core/servers/basehttp.py", line 150, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib64/python2.6/SocketServer.py", line 618, in __init__
+    self.finish()
+  File "/usr/lib64/python2.6/SocketServer.py", line 661, in finish
+    self.wfile.flush()
+  File "/usr/lib64/python2.6/socket.py", line 297, in flush
+    self._sock.sendall(buffer(data, write_offset, buffer_size))
+error: [Errno 32] Broken pipe
+[31/Dec/2016 10:38:47] "GET / HTTP/1.0" 500 95018
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/index/views.py", line 137, in index
+    'stret': streslut
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 411, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=context.current_app)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 496, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 382, in _reverse_with_prefix
+    possibilities = self.reverse_dict.getlist(lookup_view)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 297, in reverse_dict
+    self._populate()
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 286, in _populate
+    lookups.appendlist(pattern.callback, (bits, p_pattern, pattern.default_args))
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/lib/python2.6/site-packages/django/utils/functional.py", line 29, in wrapper
+    result = func(*args)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 118, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import index.views.TimeAfter. View does not exist in module index.views.
+[31/Dec/2016 10:39:19] "GET / HTTP/1.0" 500 199617
+Validating models...
+
+0 errors found
+December 31, 2016 - 10:38:24
+Django version 1.5, using settings 'sadweb.settings'
+Development server is running at http://0.0.0.0:12000/
+Quit the server with CONTROL-C.
+----------------------------------------
+Exception happened during processing of request from ('192.168.100.107', 55853)
+----------------------------------------
+2016-12-31 10:39:02
+2016-12-31 10:35:02
+2016-12-31 10:30:20
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/index/views.py", line 137, in index
+    'stret': streslut
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 411, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=context.current_app)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 496, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 382, in _reverse_with_prefix
+    possibilities = self.reverse_dict.getlist(lookup_view)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 297, in reverse_dict
+    self._populate()
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 286, in _populate
+    lookups.appendlist(pattern.callback, (bits, p_pattern, pattern.default_args))
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/lib/python2.6/site-packages/django/utils/functional.py", line 29, in wrapper
+    result = func(*args)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 118, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import index.views.TimeAfter. View does not exist in module index.views.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/index/views.py", line 137, in index
+    'stret': streslut
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 411, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=context.current_app)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 496, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 382, in _reverse_with_prefix
+    possibilities = self.reverse_dict.getlist(lookup_view)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 297, in reverse_dict
+    self._populate()
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 286, in _populate
+    lookups.appendlist(pattern.callback, (bits, p_pattern, pattern.default_args))
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/lib/python2.6/site-packages/django/utils/functional.py", line 29, in wrapper
+    result = func(*args)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 118, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import index.views.TimeAfter. View does not exist in module index.views.
+Traceback (most recent call last):
+  File "/usr/lib64/python2.6/wsgiref/handlers.py", line 94, in run
+    self.finish_response()
+  File "/usr/lib64/python2.6/wsgiref/handlers.py", line 135, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.6/wsgiref/handlers.py", line 218, in write
+    self.send_headers()
+  File "/usr/lib64/python2.6/wsgiref/handlers.py", line 274, in send_headers
+    self.send_preamble()
+  File "/usr/lib64/python2.6/wsgiref/handlers.py", line 200, in send_preamble
+    'Date: %s\r\n' % format_date_time(time.time())
+  File "/usr/lib64/python2.6/socket.py", line 318, in write
+    self.flush()
+  File "/usr/lib64/python2.6/socket.py", line 297, in flush
+    self._sock.sendall(buffer(data, write_offset, buffer_size))
+error: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/usr/lib64/python2.6/SocketServer.py", line 560, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python2.6/SocketServer.py", line 322, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.6/site-packages/django/core/servers/basehttp.py", line 150, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib64/python2.6/SocketServer.py", line 618, in __init__
+    self.finish()
+  File "/usr/lib64/python2.6/SocketServer.py", line 661, in finish
+    self.wfile.flush()
+  File "/usr/lib64/python2.6/socket.py", line 297, in flush
+    self._sock.sendall(buffer(data, write_offset, buffer_size))
+error: [Errno 32] Broken pipe
+[31/Dec/2016 10:40:09] "GET / HTTP/1.0" 500 199540
+Validating models...
+
+0 errors found
+December 31, 2016 - 10:40:06
+Django version 1.5, using settings 'sadweb.settings'
+Development server is running at http://0.0.0.0:12000/
+Quit the server with CONTROL-C.
+2016-12-31 10:40:01
+2016-12-31 10:40:01
+2016-12-31 10:30:20
+2016-12-31 10:40:01
+2016-12-31 10:40:01
+2016-12-31 10:30:20
+----------------------------------------
+Exception happened during processing of request from ('192.168.100.107', 33693)
+----------------------------------------
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/index/views.py", line 137, in index
+    'stret': streslut
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 411, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=context.current_app)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 496, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 382, in _reverse_with_prefix
+    possibilities = self.reverse_dict.getlist(lookup_view)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 297, in reverse_dict
+    self._populate()
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 286, in _populate
+    lookups.appendlist(pattern.callback, (bits, p_pattern, pattern.default_args))
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/lib/python2.6/site-packages/django/utils/functional.py", line 29, in wrapper
+    result = func(*args)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 118, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import index.views.TimeAfter. View does not exist in module index.views.
+[31/Dec/2016 10:43:55] "GET / HTTP/1.0" 500 199616
+Validating models...
+
+0 errors found
+December 31, 2016 - 10:43:13
+Django version 1.5, using settings 'sadweb.settings'
+Development server is running at http://0.0.0.0:12000/
+Quit the server with CONTROL-C.
+2016-12-31 10:43:03
+2016-12-31 10:40:01
+2016-12-31 10:40:19
+[31/Dec/2016 10:46:16] "GET / HTTP/1.0" 200 6523
+[31/Dec/2016 10:46:16] "GET /?noCache=1483152376728 HTTP/1.0" 200 6523
+[31/Dec/2016 10:46:16] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 10:46:18] "GET /keys/show/ HTTP/1.0" 200 137859
+[31/Dec/2016 10:46:19] "GET /keys/show/?noCache=1483152379347 HTTP/1.0" 200 137859
+[31/Dec/2016 10:46:54] "GET /index/index/ HTTP/1.0" 200 6523
+[31/Dec/2016 10:46:54] "GET /index/index/?noCache=1483152414787 HTTP/1.0" 200 6523
+[31/Dec/2016 10:46:56] "GET /keys/show/ HTTP/1.0" 200 137859
+[31/Dec/2016 10:46:57] "GET /keys/show/?noCache=1483152417406 HTTP/1.0" 200 137859
+[31/Dec/2016 10:46:59] "GET /index/index/ HTTP/1.0" 200 6523
+[31/Dec/2016 10:46:59] "GET /index/index/?noCache=1483152420295 HTTP/1.0" 200 6523
+[31/Dec/2016 10:47:02] "GET /accounts/logout/ HTTP/1.0" 302 0
+[31/Dec/2016 10:47:02] "GET /index/index/ HTTP/1.0" 302 0
+[31/Dec/2016 10:47:02] "GET /accounts/login/?next=/index/index/ HTTP/1.0" 404 2754
+Validating models...
+
+0 errors found
+December 31, 2016 - 10:46:15
+Django version 1.5, using settings 'sadweb.settings'
+Development server is running at http://0.0.0.0:12000/
+Quit the server with CONTROL-C.
+2016-12-31 10:46:02
+2016-12-31 10:45:01
+2016-12-31 10:40:19
+2016-12-31 10:46:02
+2016-12-31 10:45:01
+2016-12-31 10:40:19
+2016-12-31 10:46:02
+2016-12-31 10:45:01
+2016-12-31 10:40:19
+2016-12-31 10:46:02
+2016-12-31 10:45:01
+2016-12-31 10:40:19
+2016-12-31 10:46:02
+2016-12-31 10:45:01
+2016-12-31 10:40:19
+2016-12-31 10:46:02
+2016-12-31 10:45:01
+2016-12-31 10:40:19
+[31/Dec/2016 10:47:34] "GET /accounts/login/?next=/index/index/ HTTP/1.0" 404 2754
+[31/Dec/2016 10:47:37] "GET /keys/show/ HTTP/1.0" 302 0
+[31/Dec/2016 10:47:38] "GET /accounts/login/?next=/keys/show/ HTTP/1.0" 404 2752
+[31/Dec/2016 10:47:41] "GET / HTTP/1.0" 302 0
+[31/Dec/2016 10:47:41] "GET /accounts/login/?next=/ HTTP/1.0" 404 2742
+[31/Dec/2016 10:47:46] "GET / HTTP/1.0" 302 0
+[31/Dec/2016 10:47:46] "GET / HTTP/1.0" 302 0
+[31/Dec/2016 10:47:46] "GET /accounts/login/?next=/ HTTP/1.0" 404 2742
+Validating models...
+
+0 errors found
+December 31, 2016 - 10:47:34
+Django version 1.5, using settings 'sadweb.settings'
+Development server is running at http://0.0.0.0:12000/
+Quit the server with CONTROL-C.
+[31/Dec/2016 10:50:54] "GET /accounts/login/?next=/ HTTP/1.0" 200 3229
+[31/Dec/2016 10:50:54] "GET /accounts/login/?noCache=1483152655180 HTTP/1.0" 200 3229
+[31/Dec/2016 10:50:54] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 10:50:56] "POST /accounts/login/?next=/ HTTP/1.0" 302 0
+[31/Dec/2016 10:50:56] "GET / HTTP/1.0" 200 6523
+[31/Dec/2016 10:50:57] "GET /?noCache=1483152657561 HTTP/1.0" 200 6523
+[31/Dec/2016 10:51:00] "GET /accounts/logout/ HTTP/1.0" 302 0
+[31/Dec/2016 10:51:00] "GET / HTTP/1.0" 302 0
+[31/Dec/2016 10:51:00] "GET /accounts/login/?next=/ HTTP/1.0" 200 3229
+[31/Dec/2016 10:51:00] "GET /accounts/login/?noCache=1483152661307 HTTP/1.0" 200 3229
+[31/Dec/2016 10:51:02] "POST /accounts/login/?next=/ HTTP/1.0" 302 0
+[31/Dec/2016 10:51:02] "GET / HTTP/1.0" 200 6523
+[31/Dec/2016 10:51:02] "GET /?noCache=1483152662729 HTTP/1.0" 200 6523
+[31/Dec/2016 10:51:04] "GET /accounts/logout/ HTTP/1.0" 302 0
+[31/Dec/2016 10:51:04] "GET / HTTP/1.0" 302 0
+[31/Dec/2016 10:51:04] "GET /accounts/login/?next=/ HTTP/1.0" 200 3229
+[31/Dec/2016 10:51:04] "GET /accounts/login/?noCache=1483152664746 HTTP/1.0" 200 3229
+[31/Dec/2016 10:51:05] "POST /accounts/login/?next=/ HTTP/1.0" 302 0
+[31/Dec/2016 10:51:05] "GET / HTTP/1.0" 200 6523
+[31/Dec/2016 10:51:06] "GET /?noCache=1483152666582 HTTP/1.0" 200 6523
+Validating models...
+
+0 errors found
+December 31, 2016 - 10:50:03
+Django version 1.5, using settings 'sadweb.settings'
+Development server is running at http://0.0.0.0:12000/
+Quit the server with CONTROL-C.
+2016-12-31 10:50:02
+2016-12-31 10:50:01
+2016-12-31 10:50:21
+2016-12-31 10:50:02
+2016-12-31 10:50:01
+2016-12-31 10:50:21
+2016-12-31 10:51:01
+2016-12-31 10:50:01
+2016-12-31 10:50:21
+2016-12-31 10:51:01
+2016-12-31 10:50:01
+2016-12-31 10:50:21
+2016-12-31 10:51:01
+2016-12-31 10:50:01
+2016-12-31 10:50:21
+2016-12-31 10:51:01
+2016-12-31 10:50:01
+2016-12-31 10:50:21
+[31/Dec/2016 10:51:31] "GET / HTTP/1.0" 200 6523
+[31/Dec/2016 10:51:31] "GET /?noCache=1483152692325 HTTP/1.0" 200 6523
+[31/Dec/2016 10:51:31] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 10:51:32] "GET /accounts/logout/ HTTP/1.0" 302 0
+[31/Dec/2016 10:51:32] "GET /index/ HTTP/1.0" 404 2881
+[31/Dec/2016 10:51:40] "GET / HTTP/1.0" 302 0
+[31/Dec/2016 10:51:40] "GET /accounts/login/?next=/ HTTP/1.0" 200 3229
+[31/Dec/2016 10:51:40] "GET /accounts/login/?noCache=1483152700805 HTTP/1.0" 200 3229
+[31/Dec/2016 10:51:41] "POST /accounts/login/?next=/ HTTP/1.0" 302 0
+[31/Dec/2016 10:51:41] "GET / HTTP/1.0" 200 6523
+[31/Dec/2016 10:51:41] "GET /?noCache=1483152702313 HTTP/1.0" 200 6523
+Validating models...
+
+0 errors found
+December 31, 2016 - 10:51:30
+Django version 1.5, using settings 'sadweb.settings'
+Development server is running at http://0.0.0.0:12000/
+Quit the server with CONTROL-C.
+2016-12-31 10:51:01
+2016-12-31 10:50:01
+2016-12-31 10:50:21
+2016-12-31 10:51:01
+2016-12-31 10:50:01
+2016-12-31 10:50:21
+2016-12-31 10:51:01
+2016-12-31 10:50:01
+2016-12-31 10:50:21
+2016-12-31 10:51:01
+2016-12-31 10:50:01
+2016-12-31 10:50:21
+[31/Dec/2016 10:51:53] "GET / HTTP/1.0" 200 6523
+[31/Dec/2016 10:51:53] "GET /?noCache=1483152713886 HTTP/1.0" 200 6523
+[31/Dec/2016 10:51:53] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 10:51:54] "GET /accounts/logout/ HTTP/1.0" 302 0
+[31/Dec/2016 10:51:54] "GET / HTTP/1.0" 302 0
+[31/Dec/2016 10:51:54] "GET /accounts/login/?next=/ HTTP/1.0" 200 3229
+[31/Dec/2016 10:51:54] "GET /accounts/login/?noCache=1483152715388 HTTP/1.0" 200 3229
+[31/Dec/2016 10:51:56] "POST /accounts/login/?next=/ HTTP/1.0" 302 0
+[31/Dec/2016 10:51:56] "GET / HTTP/1.0" 200 6523
+[31/Dec/2016 10:51:56] "GET /?noCache=1483152716829 HTTP/1.0" 200 6523
+[31/Dec/2016 10:54:08] "GET / HTTP/1.0" 200 6523
+[31/Dec/2016 10:54:09] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 10:54:09] "GET /?noCache=1483152849529 HTTP/1.0" 200 6523
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/index/views.py", line 137, in index
+    'stret': streslut
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 424, in render
+    raise e
+NoReverseMatch: Reverse for 'navigation' with arguments '()' and keyword arguments '{}' not found.
+[31/Dec/2016 11:07:47] "GET / HTTP/1.0" 500 214027
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/index/views.py", line 137, in index
+    'stret': streslut
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 424, in render
+    raise e
+NoReverseMatch: Reverse for 'navigation' with arguments '()' and keyword arguments '{}' not found.
+[31/Dec/2016 11:08:56] "GET / HTTP/1.0" 500 214027
+Validating models...
+
+0 errors found
+December 31, 2016 - 10:51:51
+Django version 1.5, using settings 'sadweb.settings'
+Development server is running at http://0.0.0.0:12000/
+Quit the server with CONTROL-C.
+2016-12-31 10:51:01
+2016-12-31 10:50:01
+2016-12-31 10:50:21
+2016-12-31 10:51:01
+2016-12-31 10:50:01
+2016-12-31 10:50:21
+2016-12-31 10:51:01
+2016-12-31 10:50:01
+2016-12-31 10:50:21
+2016-12-31 10:51:01
+2016-12-31 10:50:01
+2016-12-31 10:50:21
+2016-12-31 10:54:02
+2016-12-31 10:50:01
+2016-12-31 10:50:21
+2016-12-31 10:54:02
+2016-12-31 10:50:01
+2016-12-31 10:50:21
+2016-12-31 11:07:02
+2016-12-31 11:05:02
+2016-12-31 11:00:20
+2016-12-31 11:08:03
+2016-12-31 11:05:02
+2016-12-31 11:00:20
+Validating models...
+
+0 errors found
+December 31, 2016 - 11:10:36
+Django version 1.5, using settings 'sadweb.settings'
+Development server is running at http://0.0.0.0:12000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <bound method Command.inner_run of <django.contrib.staticfiles.management.commands.runserver.Command object at 0x1b2490d0>>Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/index/views.py", line 137, in index
+    'stret': streslut
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 411, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=context.current_app)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 496, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 382, in _reverse_with_prefix
+    possibilities = self.reverse_dict.getlist(lookup_view)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 297, in reverse_dict
+    self._populate()
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 274, in _populate
+    for name in pattern.reverse_dict:
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 297, in reverse_dict
+    self._populate()
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 286, in _populate
+    lookups.appendlist(pattern.callback, (bits, p_pattern, pattern.default_args))
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/lib/python2.6/site-packages/django/utils/functional.py", line 29, in wrapper
+    result = func(*args)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 118, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import managekeys.views.list. View does not exist in module managekeys.views.
+[31/Dec/2016 11:15:15] "GET / HTTP/1.0" 500 207166
+Validating models...
+
+0 errors found
+December 31, 2016 - 11:12:31
+Django version 1.5, using settings 'sadweb.settings'
+Development server is running at http://0.0.0.0:12000/
+Quit the server with CONTROL-C.
+2016-12-31 11:15:02
+2016-12-31 11:15:02
+2016-12-31 11:10:20
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/index/views.py", line 137, in index
+    'stret': streslut
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 411, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=context.current_app)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 496, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 382, in _reverse_with_prefix
+    possibilities = self.reverse_dict.getlist(lookup_view)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 297, in reverse_dict
+    self._populate()
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 274, in _populate
+    for name in pattern.reverse_dict:
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 297, in reverse_dict
+    self._populate()
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 286, in _populate
+    lookups.appendlist(pattern.callback, (bits, p_pattern, pattern.default_args))
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/lib/python2.6/site-packages/django/utils/functional.py", line 29, in wrapper
+    result = func(*args)
+  File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 118, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import navigation.views.list. View does not exist in module navigation.views.
+[31/Dec/2016 11:15:54] "GET / HTTP/1.0" 500 207315
+Validating models...
+
+0 errors found
+December 31, 2016 - 11:15:53
+Django version 1.5, using settings 'sadweb.settings'
+Development server is running at http://0.0.0.0:12000/
+Quit the server with CONTROL-C.
+2016-12-31 11:15:02
+2016-12-31 11:15:02
+2016-12-31 11:10:20
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/index/views.py", line 137, in index
+    'stret': streslut
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 424, in render
+    raise e
+NoReverseMatch: Reverse for 'navigation' with arguments '()' and keyword arguments '{}' not found.
+[31/Dec/2016 11:21:07] "GET / HTTP/1.0" 500 214127
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/index/views.py", line 137, in index
+    'stret': streslut
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 424, in render
+    raise e
+NoReverseMatch: Reverse for 'navigation' with arguments '()' and keyword arguments '{}' not found.
+[31/Dec/2016 11:22:18] "GET / HTTP/1.0" 500 214127
+Validating models...
+
+0 errors found
+December 31, 2016 - 11:21:06
+Django version 1.5, using settings 'sadweb.settings'
+Development server is running at http://0.0.0.0:12000/
+Quit the server with CONTROL-C.
+2016-12-31 11:21:02
+2016-12-31 11:20:01
+2016-12-31 11:20:19
+2016-12-31 11:22:02
+2016-12-31 11:20:01
+2016-12-31 11:20:19
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/index/views.py", line 137, in index
+    'stret': streslut
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 424, in render
+    raise e
+NoReverseMatch: Reverse for 'navigation' with arguments '()' and keyword arguments '{}' not found.
+[31/Dec/2016 11:23:23] "GET / HTTP/1.0" 500 213746
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/index/views.py", line 137, in index
+    'stret': streslut
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 424, in render
+    raise e
+NoReverseMatch: Reverse for 'navigation' with arguments '()' and keyword arguments '{}' not found.
+[31/Dec/2016 14:19:52] "GET / HTTP/1.0" 500 213033
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/index/views.py", line 137, in index
+    'stret': streslut
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 424, in render
+    raise e
+NoReverseMatch: Reverse for 'navigation' with arguments '()' and keyword arguments '{}' not found.
+[31/Dec/2016 14:41:47] "GET / HTTP/1.0" 500 213033
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/index/views.py", line 137, in index
+    'stret': streslut
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 424, in render
+    raise e
+NoReverseMatch: Reverse for 'navigation' with arguments '()' and keyword arguments '{}' not found.
+[31/Dec/2016 14:42:20] "GET / HTTP/1.0" 500 213008
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/index/views.py", line 137, in index
+    'stret': streslut
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 424, in render
+    raise e
+NoReverseMatch: Reverse for 'navigation' with arguments '()' and keyword arguments '{}' not found.
+[31/Dec/2016 14:44:10] "GET / HTTP/1.0" 500 213008
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/index/views.py", line 137, in index
+    'stret': streslut
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 424, in render
+    raise e
+NoReverseMatch: Reverse for 'navigation' with arguments '()' and keyword arguments '{}' not found.
+[31/Dec/2016 14:46:31] "GET / HTTP/1.0" 500 212731
+[31/Dec/2016 14:46:56] "GET / HTTP/1.0" 200 6529
+[31/Dec/2016 14:46:58] "GET /?noCache=1483166816495 HTTP/1.0" 200 6529
+[31/Dec/2016 14:46:58] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 14:47:05] "GET /index/index/ HTTP/1.0" 200 6529
+[31/Dec/2016 14:47:05] "GET /index/index/?noCache=1483166824529 HTTP/1.0" 200 6529
+[31/Dec/2016 14:47:25] "GET /keys/show/ HTTP/1.0" 200 137850
+[31/Dec/2016 14:47:26] "GET /keys/show/?noCache=1483166845402 HTTP/1.0" 200 137850
+[31/Dec/2016 14:51:58] "GET /keys/show/ HTTP/1.0" 200 137850
+[31/Dec/2016 14:51:59] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 14:51:59] "GET /keys/show/?noCache=1483167118810 HTTP/1.0" 200 137850
+Internal Server Error: /index/index/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/index/views.py", line 137, in index
+    'stret': streslut
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 424, in render
+    raise e
+NoReverseMatch: Reverse for 'navigation' with arguments '()' and keyword arguments '{}' not found.
+[31/Dec/2016 14:52:01] "GET /index/index/ HTTP/1.0" 500 213328
+Internal Server Error: /index/index/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/index/views.py", line 137, in index
+    'stret': streslut
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 424, in render
+    raise e
+NoReverseMatch: Reverse for 'navigation' with arguments '()' and keyword arguments '{}' not found.
+[31/Dec/2016 14:52:41] "GET /index/index/ HTTP/1.0" 500 213691
+Internal Server Error: /index/index/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/index/views.py", line 137, in index
+    'stret': streslut
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 424, in render
+    raise e
+NoReverseMatch: Reverse for 'navigation' with arguments '()' and keyword arguments '{}' not found.
+[31/Dec/2016 14:53:29] "GET /index/index/ HTTP/1.0" 500 213699
+Internal Server Error: /index/index/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/index/views.py", line 137, in index
+    'stret': streslut
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 424, in render
+    raise e
+NoReverseMatch: Reverse for 'navigation_list' with arguments '()' and keyword arguments '{}' not found.
+[31/Dec/2016 14:54:07] "GET /index/index/ HTTP/1.0" 500 213789
+Validating models...
+
+0 errors found
+December 31, 2016 - 11:23:21
+Django version 1.5, using settings 'sadweb.settings'
+Development server is running at http://0.0.0.0:12000/
+Quit the server with CONTROL-C.
+2016-12-31 11:23:02
+2016-12-31 11:20:01
+2016-12-31 11:20:19
+2016-12-31 14:19:02
+2016-12-31 14:15:01
+2016-12-31 14:10:19
+2016-12-31 14:41:02
+2016-12-31 14:40:01
+2016-12-31 14:40:19
+2016-12-31 14:42:02
+2016-12-31 14:40:01
+2016-12-31 14:40:19
+2016-12-31 14:44:02
+2016-12-31 14:40:01
+2016-12-31 14:40:19
+2016-12-31 14:46:02
+2016-12-31 14:45:02
+2016-12-31 14:40:19
+2016-12-31 14:46:02
+2016-12-31 14:45:02
+2016-12-31 14:40:19
+2016-12-31 14:46:02
+2016-12-31 14:45:02
+2016-12-31 14:40:19
+2016-12-31 14:47:02
+2016-12-31 14:45:02
+2016-12-31 14:40:19
+2016-12-31 14:47:02
+2016-12-31 14:45:02
+2016-12-31 14:40:19
+2016-12-31 14:51:02
+2016-12-31 14:50:02
+2016-12-31 14:50:30
+2016-12-31 14:52:02
+2016-12-31 14:50:02
+2016-12-31 14:50:30
+2016-12-31 14:53:01
+2016-12-31 14:50:02
+2016-12-31 14:50:30
+2016-12-31 14:54:02
+2016-12-31 14:50:02
+2016-12-31 14:50:30
+Internal Server Error: /index/index/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/index/views.py", line 137, in index
+    'stret': streslut
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 424, in render
+    raise e
+NoReverseMatch: Reverse for 'navigation_list' with arguments '()' and keyword arguments '{}' not found.
+[31/Dec/2016 14:54:38] "GET /index/index/ HTTP/1.0" 500 214428
+Internal Server Error: /index/index/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/index/views.py", line 137, in index
+    'stret': streslut
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 424, in render
+    raise e
+NoReverseMatch: Reverse for 'navigation_list' with arguments '()' and keyword arguments '{}' not found.
+[31/Dec/2016 14:54:40] "GET /index/index/ HTTP/1.0" 500 214428
+Internal Server Error: /index/index/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/index/views.py", line 137, in index
+    'stret': streslut
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 424, in render
+    raise e
+NoReverseMatch: Reverse for 'navigation_list' with arguments '()' and keyword arguments '{}' not found.
+[31/Dec/2016 14:58:20] "GET /index/index/ HTTP/1.0" 500 214428
+Validating models...
+
+0 errors found
+December 31, 2016 - 14:54:37
+Django version 1.5, using settings 'sadweb.settings'
+Development server is running at http://0.0.0.0:12000/
+Quit the server with CONTROL-C.
+2016-12-31 14:54:02
+2016-12-31 14:50:02
+2016-12-31 14:50:30
+2016-12-31 14:54:02
+2016-12-31 14:50:02
+2016-12-31 14:50:30
+2016-12-31 14:58:02
+2016-12-31 14:55:01
+2016-12-31 14:50:30
+[31/Dec/2016 15:00:11] "GET /index/index/ HTTP/1.0" 200 6627
+[31/Dec/2016 15:00:11] "GET /index/index/?noCache=1483167611028 HTTP/1.0" 200 6627
+[31/Dec/2016 15:00:11] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+Internal Server Error: /navigation/list/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/navigation/views.py", line 6, in list
+    return render(
+NameError: global name 'render' is not defined
+[31/Dec/2016 15:00:15] "GET /navigation/list/ HTTP/1.0" 500 70038
+[31/Dec/2016 15:00:26] "GET /index/index/?noCache=1483167625352 HTTP/1.0" 200 6627
+[31/Dec/2016 15:01:36] "GET /index/index/ HTTP/1.0" 200 6623
+[31/Dec/2016 15:01:36] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 15:01:37] "GET /index/index/?noCache=1483167696257 HTTP/1.0" 200 6623
+Validating models...
+
+0 errors found
+December 31, 2016 - 15:00:11
+Django version 1.5, using settings 'sadweb.settings'
+Development server is running at http://0.0.0.0:12000/
+Quit the server with CONTROL-C.
+2016-12-31 15:00:02
+2016-12-31 15:00:01
+2016-12-31 14:50:30
+2016-12-31 15:00:02
+2016-12-31 15:00:01
+2016-12-31 14:50:30
+2016-12-31 15:00:02
+2016-12-31 15:00:01
+2016-12-31 15:00:19
+2016-12-31 15:01:02
+2016-12-31 15:00:01
+2016-12-31 15:00:19
+2016-12-31 15:01:02
+2016-12-31 15:00:01
+2016-12-31 15:00:19
+Internal Server Error: /navigation/list/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/navigation/views.py", line 11, in list
+    'ret': ret,
+NameError: global name 'ret' is not defined
+[31/Dec/2016 15:02:13] "GET /navigation/list/ HTTP/1.0" 500 69883
+Validating models...
+
+0 errors found
+December 31, 2016 - 15:02:12
+Django version 1.5, using settings 'sadweb.settings'
+Development server is running at http://0.0.0.0:12000/
+Quit the server with CONTROL-C.
+Internal Server Error: /navigation/list/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/sadweb/navigation/views.py", line 9, in list
+    'navigation.html',
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 177, in render_to_string
+    return t.render(context_instance)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 124, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/lib/python2.6/site-packages/django/template/defaulttags.py", line 424, in render
+    raise e
+NoReverseMatch: Reverse for 'navigation' with arguments '()' and keyword arguments '{}' not found.
+[31/Dec/2016 15:02:32] "GET /navigation/list/ HTTP/1.0" 500 194422
+[31/Dec/2016 15:02:56] "GET /navigation/list/ HTTP/1.0" 200 4245
+[31/Dec/2016 15:02:56] "GET /navigation/list/?noCache=1483167775915 HTTP/1.0" 200 4245
+[31/Dec/2016 15:05:04] "GET /navigation/list/ HTTP/1.0" 200 15278
+[31/Dec/2016 15:05:04] "GET /navigation/list/images/ag8.png HTTP/1.0" 404 2720
+[31/Dec/2016 15:05:04] "GET /navigation/list/images/ag138vip.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:05:04] "GET /navigation/list/images/settings.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:05:04] "GET /navigation/list/images/ag138.png HTTP/1.0" 404 2726
+[31/Dec/2016 15:05:04] "GET /navigation/list/images/totalcrest.png HTTP/1.0" 404 2741
+[31/Dec/2016 15:05:04] "GET /navigation/list/images/ytbrand.png HTTP/1.0" 404 2732
+[31/Dec/2016 15:05:04] "GET /navigation/list/images/ag8.jpg HTTP/1.0" 404 2720
+[31/Dec/2016 15:05:04] "GET /navigation/list/images/topcrown.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:05:04] "GET /navigation/list/images/dribbble.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:05:04] "GET /navigation/list/images/tasks.png HTTP/1.0" 404 2726
+[31/Dec/2016 15:05:04] "GET /navigation/list/?noCache=1483167903764 HTTP/1.0" 200 15278
+[31/Dec/2016 15:05:04] "GET /navigation/list/images/firefox.png HTTP/1.0" 404 2732
+[31/Dec/2016 15:05:04] "GET /navigation/list/images/ag8vip.png HTTP/1.0" 404 2729
+[31/Dec/2016 15:05:04] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 15:05:12] "GET /navigation/list/images/ag8.png HTTP/1.0" 404 2720
+[31/Dec/2016 15:05:13] "GET /navigation/list/images/settings.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:05:13] "GET /navigation/list/images/ag138.png HTTP/1.0" 404 2726
+[31/Dec/2016 15:05:13] "GET /navigation/list/images/firefox.png HTTP/1.0" 404 2732
+[31/Dec/2016 15:05:13] "GET /navigation/list/images/totalcrest.png HTTP/1.0" 404 2741
+[31/Dec/2016 15:05:13] "GET /navigation/list/images/ytbrand.png HTTP/1.0" 404 2732
+[31/Dec/2016 15:05:13] "GET /navigation/list/images/tasks.png HTTP/1.0" 404 2726
+[31/Dec/2016 15:05:13] "GET /navigation/list/images/ag8.jpg HTTP/1.0" 404 2720
+[31/Dec/2016 15:05:13] "GET /navigation/list/images/topcrown.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:05:13] "GET /navigation/list/?noCache=1483167912297 HTTP/1.0" 200 15278
+[31/Dec/2016 15:05:13] "GET /navigation/list/images/ag8vip.png HTTP/1.0" 404 2729
+[31/Dec/2016 15:05:13] "GET /navigation/list/images/ag138vip.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:05:22] "GET /deploy/deploy/ HTTP/1.0" 200 6620
+[31/Dec/2016 15:05:22] "GET /deploy/deploy/?noCache=1483167921608 HTTP/1.0" 200 6620
+[31/Dec/2016 15:05:24] "GET /keys/show/ HTTP/1.0" 200 137837
+[31/Dec/2016 15:05:25] "GET /keys/show/?noCache=1483167924641 HTTP/1.0" 200 137837
+[31/Dec/2016 15:05:28] "GET /index/index/ HTTP/1.0" 200 6623
+[31/Dec/2016 15:05:28] "GET /index/index/?noCache=1483167927917 HTTP/1.0" 200 6623
+[31/Dec/2016 15:05:32] "GET /navigation/list/ HTTP/1.0" 200 15278
+[31/Dec/2016 15:05:32] "GET /navigation/list/images/ag8.png HTTP/1.0" 404 2720
+[31/Dec/2016 15:05:32] "GET /navigation/list/images/ag138vip.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:05:32] "GET /navigation/list/images/settings.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:05:32] "GET /navigation/list/images/ag138.png HTTP/1.0" 404 2726
+[31/Dec/2016 15:05:32] "GET /navigation/list/images/firefox.png HTTP/1.0" 404 2732
+[31/Dec/2016 15:05:32] "GET /navigation/list/images/totalcrest.png HTTP/1.0" 404 2741
+[31/Dec/2016 15:05:32] "GET /navigation/list/images/ytbrand.png HTTP/1.0" 404 2732
+[31/Dec/2016 15:05:32] "GET /navigation/list/images/ag8.jpg HTTP/1.0" 404 2720
+[31/Dec/2016 15:05:32] "GET /navigation/list/images/topcrown.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:05:32] "GET /navigation/list/images/dribbble.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:05:32] "GET /navigation/list/images/tasks.png HTTP/1.0" 404 2726
+[31/Dec/2016 15:05:32] "GET /navigation/list/?noCache=1483167932040 HTTP/1.0" 200 15278
+[31/Dec/2016 15:05:33] "GET /navigation/list/images/ag8vip.png HTTP/1.0" 404 2729
+[31/Dec/2016 15:13:57] "GET /keys/show/ HTTP/1.0" 200 137837
+[31/Dec/2016 15:13:59] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 15:13:59] "GET /keys/show/?noCache=1483168438234 HTTP/1.0" 200 137837
+[31/Dec/2016 15:14:01] "GET /index/index/ HTTP/1.0" 200 6623
+[31/Dec/2016 15:14:01] "GET /index/index/?noCache=1483168440528 HTTP/1.0" 200 6623
+[31/Dec/2016 15:14:01] "GET /index/index/ HTTP/1.0" 200 6623
+[31/Dec/2016 15:14:02] "GET /index/index/?noCache=1483168441313 HTTP/1.0" 200 6623
+[31/Dec/2016 15:14:02] "GET /navigation/list/ HTTP/1.0" 200 15278
+[31/Dec/2016 15:14:02] "GET /navigation/list/images/ag8.png HTTP/1.0" 404 2720
+[31/Dec/2016 15:14:03] "GET /navigation/list/images/totalcrest.png HTTP/1.0" 404 2741
+[31/Dec/2016 15:14:03] "GET /navigation/list/images/topcrown.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:14:03] "GET /navigation/list/images/ag8.jpg HTTP/1.0" 404 2720
+[31/Dec/2016 15:14:03] "GET /navigation/list/images/dribbble.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:14:03] "GET /navigation/list/images/ytbrand.png HTTP/1.0" 404 2732
+[31/Dec/2016 15:14:03] "GET /navigation/list/images/tasks.png HTTP/1.0" 404 2726
+[31/Dec/2016 15:14:03] "GET /navigation/list/?noCache=1483168442249 HTTP/1.0" 200 15278
+[31/Dec/2016 15:14:03] "GET /navigation/list/images/settings.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:14:03] "GET /navigation/list/images/ag138.png HTTP/1.0" 404 2726
+[31/Dec/2016 15:14:03] "GET /navigation/list/images/firefox.png HTTP/1.0" 404 2732
+[31/Dec/2016 15:14:03] "GET /navigation/list/images/ag8vip.png HTTP/1.0" 404 2729
+[31/Dec/2016 15:14:03] "GET /navigation/list/images/ag138vip.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:15:56] "GET /deploy/deploy/ HTTP/1.0" 200 6620
+[31/Dec/2016 15:15:56] "GET /deploy/deploy/?noCache=1483168556097 HTTP/1.0" 200 6620
+[31/Dec/2016 15:15:57] "GET /index/index/ HTTP/1.0" 200 6623
+[31/Dec/2016 15:15:57] "GET /index/index/?noCache=1483168557157 HTTP/1.0" 200 6623
+[31/Dec/2016 15:15:58] "GET /navigation/list/ HTTP/1.0" 200 15278
+[31/Dec/2016 15:15:58] "GET /navigation/list/images/ag8.png HTTP/1.0" 404 2720
+[31/Dec/2016 15:15:58] "GET /navigation/list/images/totalcrest.png HTTP/1.0" 404 2741
+[31/Dec/2016 15:15:58] "GET /navigation/list/images/ytbrand.png HTTP/1.0" 404 2732
+[31/Dec/2016 15:15:58] "GET /navigation/list/images/ag8.jpg HTTP/1.0" 404 2720
+[31/Dec/2016 15:15:58] "GET /navigation/list/images/dribbble.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:15:58] "GET /navigation/list/images/topcrown.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:15:58] "GET /navigation/list/images/tasks.png HTTP/1.0" 404 2726
+[31/Dec/2016 15:15:58] "GET /navigation/list/?noCache=1483168557863 HTTP/1.0" 200 15278
+[31/Dec/2016 15:15:58] "GET /navigation/list/images/settings.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:15:58] "GET /navigation/list/images/ag138.png HTTP/1.0" 404 2726
+[31/Dec/2016 15:15:58] "GET /navigation/list/images/ag8vip.png HTTP/1.0" 404 2729
+[31/Dec/2016 15:15:58] "GET /navigation/list/images/firefox.png HTTP/1.0" 404 2732
+[31/Dec/2016 15:15:58] "GET /navigation/list/images/ag138vip.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:16:20] "GET /navigation/list/ HTTP/1.0" 200 15263
+[31/Dec/2016 15:16:20] "GET /navigation/list/images/ag8.png HTTP/1.0" 404 2720
+[31/Dec/2016 15:16:20] "GET /navigation/list/images/ytbrand.png HTTP/1.0" 404 2732
+[31/Dec/2016 15:16:20] "GET /navigation/list/images/totalcrest.png HTTP/1.0" 404 2741
+[31/Dec/2016 15:16:20] "GET /navigation/list/images/ag8.jpg HTTP/1.0" 404 2720
+[31/Dec/2016 15:16:20] "GET /navigation/list/images/ag138vip.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:16:20] "GET /navigation/list/images/topcrown.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:16:20] "GET /navigation/list/images/dribbble.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:16:20] "GET /navigation/list/images/tasks.png HTTP/1.0" 404 2726
+[31/Dec/2016 15:16:20] "GET /navigation/list/images/settings.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:16:20] "GET /navigation/list/?noCache=1483168579593 HTTP/1.0" 200 15263
+[31/Dec/2016 15:16:20] "GET /navigation/list/images/ag138.png HTTP/1.0" 404 2726
+[31/Dec/2016 15:16:20] "GET /navigation/list/images/firefox.png HTTP/1.0" 404 2732
+[31/Dec/2016 15:16:20] "GET /navigation/list/images/ag8vip.png HTTP/1.0" 404 2729
+[31/Dec/2016 15:16:20] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 15:29:36] "GET /navigation/list/ HTTP/1.0" 200 15263
+[31/Dec/2016 15:29:36] "GET /navigation/list/images/ag8.png HTTP/1.0" 404 2720
+[31/Dec/2016 15:29:36] "GET /navigation/list/images/totalcrest.png HTTP/1.0" 404 2741
+[31/Dec/2016 15:29:36] "GET /navigation/list/images/ytbrand.png HTTP/1.0" 404 2732
+[31/Dec/2016 15:29:36] "GET /navigation/list/images/ag8.jpg HTTP/1.0" 404 2720
+[31/Dec/2016 15:29:36] "GET /navigation/list/images/ag138vip.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:29:36] "GET /navigation/list/images/topcrown.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:29:36] "GET /navigation/list/images/dribbble.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:29:36] "GET /navigation/list/images/tasks.png HTTP/1.0" 404 2726
+[31/Dec/2016 15:29:36] "GET /navigation/list/images/settings.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:29:36] "GET /navigation/list/?noCache=1483169375563 HTTP/1.0" 200 15263
+[31/Dec/2016 15:29:36] "GET /navigation/list/images/ag138.png HTTP/1.0" 404 2726
+[31/Dec/2016 15:29:36] "GET /navigation/list/images/firefox.png HTTP/1.0" 404 2732
+[31/Dec/2016 15:29:36] "GET /navigation/list/images/ag8vip.png HTTP/1.0" 404 2729
+[31/Dec/2016 15:29:36] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 15:29:54] "GET /index/index/ HTTP/1.0" 200 6623
+[31/Dec/2016 15:29:54] "GET /index/index/?noCache=1483169393923 HTTP/1.0" 200 6623
+[31/Dec/2016 15:29:56] "GET /navigation/list/ HTTP/1.0" 200 15263
+[31/Dec/2016 15:29:56] "GET /navigation/list/images/ag138vip.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:29:56] "GET /navigation/list/images/totalcrest.png HTTP/1.0" 404 2741
+[31/Dec/2016 15:29:57] "GET /navigation/list/images/dribbble.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:29:57] "GET /navigation/list/images/ytbrand.png HTTP/1.0" 404 2732
+[31/Dec/2016 15:29:57] "GET /navigation/list/images/tasks.png HTTP/1.0" 404 2726
+[31/Dec/2016 15:29:57] "GET /navigation/list/images/ag8.jpg HTTP/1.0" 404 2720
+[31/Dec/2016 15:29:57] "GET /navigation/list/images/topcrown.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:29:57] "GET /navigation/list/?noCache=1483169396150 HTTP/1.0" 200 15263
+[31/Dec/2016 15:29:57] "GET /navigation/list/images/ag8.png HTTP/1.0" 404 2720
+[31/Dec/2016 15:29:57] "GET /navigation/list/images/settings.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:29:57] "GET /navigation/list/images/ag138.png HTTP/1.0" 404 2726
+[31/Dec/2016 15:29:57] "GET /navigation/list/images/firefox.png HTTP/1.0" 404 2732
+[31/Dec/2016 15:29:57] "GET /navigation/list/images/ag8vip.png HTTP/1.0" 404 2729
+[31/Dec/2016 15:36:57] "GET /navigation/list/ HTTP/1.0" 200 15439
+[31/Dec/2016 15:36:57] "GET /static/css/metro.css HTTP/1.0" 200 4496
+[31/Dec/2016 15:36:57] "GET /static/otherjs/metro.js HTTP/1.0" 200 1787
+[31/Dec/2016 15:36:57] "GET /static/otherjs/jquery.plugins.min.js HTTP/1.0" 200 17627
+[31/Dec/2016 15:36:57] "GET /navigation/list/images/ag8.png HTTP/1.0" 404 2720
+[31/Dec/2016 15:36:57] "GET /navigation/list/images/settings.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:36:57] "GET /navigation/list/images/ag138.png HTTP/1.0" 404 2726
+[31/Dec/2016 15:36:57] "GET /navigation/list/images/firefox.png HTTP/1.0" 404 2732
+[31/Dec/2016 15:36:57] "GET /navigation/list/images/ag8vip.png HTTP/1.0" 404 2729
+[31/Dec/2016 15:36:58] "GET /navigation/list/images/ag138vip.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:36:58] "GET /navigation/list/images/ag8.jpg HTTP/1.0" 404 2720
+[31/Dec/2016 15:36:58] "GET /navigation/list/images/topcrown.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:36:58] "GET /static/images/sprite.png HTTP/1.0" 404 1654
+[31/Dec/2016 15:36:58] "GET /navigation/list/images/ag8.png HTTP/1.0" 404 2720
+[31/Dec/2016 15:36:58] "GET /navigation/list/images/totalcrest.png HTTP/1.0" 404 2741
+[31/Dec/2016 15:36:58] "GET /navigation/list/images/ytbrand.png HTTP/1.0" 404 2732
+[31/Dec/2016 15:36:58] "GET /navigation/list/images/tasks.png HTTP/1.0" 404 2726
+[31/Dec/2016 15:36:58] "GET /navigation/list/images/dribbble.png HTTP/1.0" 404 2735
+[31/Dec/2016 15:36:58] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 16:02:05] "GET /navigation/list/ HTTP/1.0" 200 15439
+[31/Dec/2016 16:02:05] "GET /static/css/metro.css HTTP/1.0" 304 0
+[31/Dec/2016 16:02:05] "GET /static/otherjs/jquery.plugins.min.js HTTP/1.0" 304 0
+[31/Dec/2016 16:02:05] "GET /static/otherjs/metro.js HTTP/1.0" 304 0
+[31/Dec/2016 16:02:05] "GET /navigation/list/images/ag8.png HTTP/1.0" 404 2720
+[31/Dec/2016 16:02:05] "GET /navigation/list/images/settings.png HTTP/1.0" 404 2735
+[31/Dec/2016 16:02:05] "GET /navigation/list/images/ag138.png HTTP/1.0" 404 2726
+[31/Dec/2016 16:02:05] "GET /navigation/list/images/firefox.png HTTP/1.0" 404 2732
+[31/Dec/2016 16:02:05] "GET /navigation/list/images/ag8.jpg HTTP/1.0" 404 2720
+[31/Dec/2016 16:02:05] "GET /navigation/list/images/ytbrand.png HTTP/1.0" 404 2732
+[31/Dec/2016 16:02:05] "GET /navigation/list/images/topcrown.png HTTP/1.0" 404 2735
+[31/Dec/2016 16:02:05] "GET /static/images/sprite.png HTTP/1.0" 404 1654
+[31/Dec/2016 16:02:05] "GET /navigation/list/images/totalcrest.png HTTP/1.0" 404 2741
+[31/Dec/2016 16:02:05] "GET /navigation/list/images/ag8vip.png HTTP/1.0" 404 2729
+[31/Dec/2016 16:02:05] "GET /navigation/list/images/ag138vip.png HTTP/1.0" 404 2735
+[31/Dec/2016 16:02:05] "GET /navigation/list/images/tasks.png HTTP/1.0" 404 2726
+[31/Dec/2016 16:02:05] "GET /navigation/list/images/dribbble.png HTTP/1.0" 404 2735
+[31/Dec/2016 16:02:06] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 16:04:35] "GET /navigation/list/ HTTP/1.0" 200 16635
+[31/Dec/2016 16:04:35] "GET /static/img/navigation/images/ag8.png HTTP/1.0" 404 1690
+[31/Dec/2016 16:04:35] "GET /static/images/sprite.png HTTP/1.0" 404 1654
+[31/Dec/2016 16:04:35] "GET /static/img/navigation/images/topcrown.png HTTP/1.0" 404 1705
+[31/Dec/2016 16:04:35] "GET /static/img/navigation/images/ytbrand.png HTTP/1.0" 404 1702
+[31/Dec/2016 16:04:35] "GET /static/img/navigation/images/totalcrest.png HTTP/1.0" 404 1711
+[31/Dec/2016 16:04:35] "GET /static/img/navigation/images/ag138vip.png HTTP/1.0" 404 1705
+[31/Dec/2016 16:04:35] "GET /static/img/navigation/images/ag8vip.png HTTP/1.0" 404 1699
+[31/Dec/2016 16:04:35] "GET /static/img/navigation/images/ag8.jpg HTTP/1.0" 404 1690
+[31/Dec/2016 16:04:35] "GET /static/img/navigation/images/settings.png HTTP/1.0" 200 1067
+[31/Dec/2016 16:04:35] "GET /static/img/navigation/images/ag138.png HTTP/1.0" 404 1696
+[31/Dec/2016 16:04:35] "GET /static/img/navigation/images/firefox.png HTTP/1.0" 200 1431
+[31/Dec/2016 16:04:35] "GET /static/img/navigation/images/tasks.png HTTP/1.0" 200 1446
+[31/Dec/2016 16:04:35] "GET /static/img/navigation/images/dribbble.png HTTP/1.0" 200 1570
+[31/Dec/2016 16:04:35] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 16:06:41] "GET /static/img/navigation/images/ag8.png HTTP/1.0" 404 1690
+[31/Dec/2016 16:06:41] "GET /static/img/navigation/images/ag138.png HTTP/1.0" 404 1696
+[31/Dec/2016 16:06:41] "GET /static/images/sprite.png HTTP/1.0" 404 1654
+[31/Dec/2016 16:06:41] "GET /static/img/navigation/images/ag8vip.png HTTP/1.0" 404 1699
+[31/Dec/2016 16:06:41] "GET /static/img/navigation/images/totalcrest.png HTTP/1.0" 404 1711
+[31/Dec/2016 16:06:41] "GET /static/img/navigation/images/ag8.jpg HTTP/1.0" 404 1690
+[31/Dec/2016 16:06:41] "GET /static/img/navigation/images/ytbrand.png HTTP/1.0" 404 1702
+[31/Dec/2016 16:06:41] "GET /static/img/navigation/images/topcrown.png HTTP/1.0" 404 1705
+[31/Dec/2016 16:09:43] "GET /navigation/list/ HTTP/1.0" 200 16720
+[31/Dec/2016 16:09:43] "GET /static/otherjs/jquery.plugins.min.js HTTP/1.0" 304 0
+[31/Dec/2016 16:09:43] "GET /static/otherjs/metro.js HTTP/1.0" 304 0
+[31/Dec/2016 16:09:43] "GET /static/img/navigation/images/ag8.png HTTP/1.0" 404 1690
+[31/Dec/2016 16:09:43] "GET /static/img/navigation/images/ag138.png HTTP/1.0" 404 1696
+[31/Dec/2016 16:09:43] "GET /static/img/navigation/images/ytbrand.png HTTP/1.0" 404 1702
+[31/Dec/2016 16:09:43] "GET /static/img/navigation/images/topcrown.png HTTP/1.0" 404 1705
+[31/Dec/2016 16:09:43] "GET /static/img/navigation/images/ag8.jpg HTTP/1.0" 404 1690
+[31/Dec/2016 16:09:43] "GET /static/img/navigation/images/ag8vip.png HTTP/1.0" 404 1699
+[31/Dec/2016 16:09:43] "GET /static/img/navigation/images/ag138vip.png HTTP/1.0" 404 1705
+[31/Dec/2016 16:09:43] "GET /static/img/navigation/images/totalcrest.png HTTP/1.0" 404 1711
+[31/Dec/2016 16:09:43] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 16:11:26] "GET /navigation/list/ HTTP/1.0" 200 16720
+[31/Dec/2016 16:11:26] "GET /static/img/navigation/images/ag8.png HTTP/1.0" 200 25557
+[31/Dec/2016 16:11:26] "GET /static/img/navigation/images/ytbrand.png HTTP/1.0" 200 33062
+[31/Dec/2016 16:11:26] "GET /static/img/navigation/images/ag8.jpg HTTP/1.0" 200 9125
+[31/Dec/2016 16:11:26] "GET /static/img/navigation/images/ag138.png HTTP/1.0" 200 21718
+[31/Dec/2016 16:11:26] "GET /static/img/navigation/images/topcrown.png HTTP/1.0" 200 34777
+[31/Dec/2016 16:11:26] "GET /static/img/navigation/images/ag8vip.png HTTP/1.0" 200 26415
+[31/Dec/2016 16:11:26] "GET /static/img/navigation/images/ag138vip.png HTTP/1.0" 200 76517
+[31/Dec/2016 16:11:26] "GET /static/img/navigation/images/totalcrest.png HTTP/1.0" 200 15943
+[31/Dec/2016 16:11:27] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 16:14:10] "GET /keys/show/ HTTP/1.0" 200 138125
+[31/Dec/2016 16:14:10] "GET /static/otherjs/jquery.plugins.min.js HTTP/1.0" 304 0
+[31/Dec/2016 16:14:10] "GET /static/otherjs/metro.js HTTP/1.0" 304 0
+[31/Dec/2016 16:14:14] "GET /keys/show/ HTTP/1.0" 200 138125
+[31/Dec/2016 16:14:15] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 16:15:04] "GET /keys/show/ HTTP/1.0" 200 138125
+[31/Dec/2016 16:15:05] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 16:15:07] "GET /keys/show/ HTTP/1.0" 200 138125
+[31/Dec/2016 16:15:08] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 16:15:09] "GET /index/index/ HTTP/1.0" 200 6884
+[31/Dec/2016 16:15:11] "GET /navigation/list/ HTTP/1.0" 200 16720
+[31/Dec/2016 16:15:14] "GET /index/index/ HTTP/1.0" 200 6884
+[31/Dec/2016 16:41:06] "GET /index/index/ HTTP/1.0" 200 6884
+[31/Dec/2016 16:41:06] "GET /static/otherjs/jquery.plugins.min.js HTTP/1.0" 304 0
+[31/Dec/2016 16:41:06] "GET /static/otherjs/metro.js HTTP/1.0" 304 0
+[31/Dec/2016 16:41:06] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[31/Dec/2016 16:41:08] "GET /keys/show/ HTTP/1.0" 200 138128
+[01/Jan/2017 08:01:22] "GET /keys/show/ HTTP/1.0" 200 138128
+[01/Jan/2017 08:01:22] "GET /static/otherjs/jquery.plugins.min.js HTTP/1.0" 304 0
+[01/Jan/2017 08:01:22] "GET /static/otherjs/metro.js HTTP/1.0" 304 0
+[01/Jan/2017 08:01:23] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[01/Jan/2017 08:01:25] "GET /index/index/ HTTP/1.0" 200 6884
+[01/Jan/2017 08:01:30] "GET /accounts/logout/ HTTP/1.0" 302 0
+[01/Jan/2017 08:01:30] "GET / HTTP/1.0" 302 0
+Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 140, in get_response
+    response = response.render()
+  File "/usr/lib/python2.6/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/usr/lib/python2.6/site-packages/django/template/response.py", line 80, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/lib/python2.6/site-packages/django/template/response.py", line 58, in resolve_template
+    return loader.get_template(template)
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 139, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: registration/login.html
+[01/Jan/2017 08:01:30] "GET /accounts/login/?next=/ HTTP/1.0" 500 69939
+Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 140, in get_response
+    response = response.render()
+  File "/usr/lib/python2.6/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/usr/lib/python2.6/site-packages/django/template/response.py", line 80, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/lib/python2.6/site-packages/django/template/response.py", line 58, in resolve_template
+    return loader.get_template(template)
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 139, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: registration/login.html
+[01/Jan/2017 08:07:18] "GET /accounts/login/?next=/ HTTP/1.0" 500 70131
+[01/Jan/2017 08:11:29] "GET /accounts/login/?next=/ HTTP/1.0" 200 3229
+[01/Jan/2017 08:11:29] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[01/Jan/2017 08:11:29] "GET /accounts/login/?noCache=1483229490447 HTTP/1.0" 200 3229
+[01/Jan/2017 08:11:31] "POST /accounts/login/?next=/ HTTP/1.0" 302 0
+[01/Jan/2017 08:11:31] "GET / HTTP/1.0" 200 6884
+[01/Jan/2017 08:12:24] "GET /deploy/deploy/ HTTP/1.0" 200 6881
+[01/Jan/2017 08:12:26] "GET /keys/show/ HTTP/1.0" 200 138128
+[01/Jan/2017 08:14:14] "GET /keys/show/ HTTP/1.0" 200 138146
+[01/Jan/2017 08:14:15] "GET /static/img/favicon.ico HTTP/1.0" 200 1150
+[01/Jan/2017 08:14:16] "GET /keys/show/?noCache=1483229656915 HTTP/1.0" 200 138146
+[01/Jan/2017 08:14:27] "GET /index/index/ HTTP/1.0" 200 6902
+[01/Jan/2017 08:14:27] "GET /index/index/?noCache=1483229668621 HTTP/1.0" 200 6902
+[01/Jan/2017 08:14:28] "GET /navigation/list/ HTTP/1.0" 200 16738
+[01/Jan/2017 08:14:28] "GET /navigation/list/?noCache=1483229669564 HTTP/1.0" 200 16738
+[01/Jan/2017 08:14:53] "GET /index/index/ HTTP/1.0" 200 6902
+[01/Jan/2017 08:14:54] "GET /index/index/?noCache=1483229695215 HTTP/1.0" 200 6902

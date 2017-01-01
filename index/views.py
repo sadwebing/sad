@@ -8,6 +8,7 @@ from django import forms
 from datetime import datetime, timedelta
 #from models import User
 from django.contrib.auth.models import User
+from django.contrib import auth
 from index.models import ServStatus, ProcStatus, MiniKeys
 
 @login_required
@@ -137,87 +138,10 @@ def index(request):
         }
     )
 
-
-
-
-
-
-
-#form list
-class UserForm(forms.Form):
-    username = forms.CharField(label='用户名', max_length=100)
-    password = forms.CharField(label='密码', widget=forms.PasswordInput())
-
-#regist
-def regist(req):
-    if req.method =='POST':
-        uf = UserForm(req.POST)
-        if uf.is_valid():
-            #get the form data
-            username = uf.cleaned_data['username']
-            password = uf.cleaned_data['password']
-            User.objects.create(username=username, password=password)
-            return HttpResponse('注册成功！')
-    else:
-        uf = UserForm()
-    return render_to_response('regist.html', {'uf': uf}, context_instance=RequestContext(req))
-
-#login
-def login(req):
-    if req.method == 'POST':
-        uf = UserForm(req.POST)
-        if uf.is_valid():
-            #get the form data
-            username = uf.cleaned_data['username']
-            password = uf.cleaned_data['password']
-            #compare data to the database
-            result = User.objects.filter(username__exact=username, password=password)
-            if result:
-                #user and password correct, then redirect to index
-                response = HttpResponseRedirect('/index/index/')
-                #add user to browser cookie, valid time is 600
-                response.set_cookie('username', username, 600)
-                return response
-            else:
-                #user or password wrong
-                return HttpResponseRedirect('/login/')
-    else:
-        uf = UserForm()
-    return render_to_response('login.html', {'uf': uf}, context_instance=RequestContext(req))
-
-##login successful
-#def index(req):
-#    username = req.COOKIES.get('username', '')
-#    return render_to_response('index.html', {'username': username})
-
-#logout
-def logout(req):
+def logout(request):
     response = HttpResponse('退出！')
     #clear the username in cookie
-    response.delete_cookie('username')
-    return response
-
-
-###test###
-def Hello(request):
-    return HttpResponse('Hello World!')
-
-def CurrentTime(request):
-    CurrentTime = datetime.now().strftime('%Y/%m/%d %H:%M:%S')
-    Content = "<html><body>Current time is %s.<body/><html/>" %CurrentTime
-    return HttpResponse(Content)
-
-def TimeAfter(request, offset):
-    try:
-        offset = int(offset)
-    except ValueError:
-        raise Http404()
-    CurrentTime = datetime.now().strftime('%Y/%m/%d %H:%M:%S')
-    TimeAfter = (datetime.now() + timedelta(hours=offset)).strftime('%Y/%m/%d %H:%M:%S')
-    #assert False
-    TimeDic = {'CurrentTime': CurrentTime, 'offset': offset, 'TimeAfter': TimeAfter }
-    t = get_template('index.html')
-    Html = t.render(Context(TimeDic))
-    #Content = "<html><body>Current time is %s, in %s hours, time is %s.<body/><html/>" %(CurrentTime, offset, TimeAfter)
-    return HttpResponse(Html)
-
+    #response.delete_cookie('username')
+    #return response
+    auth.logout(request)
+    return HttpResponseRedirect('/')

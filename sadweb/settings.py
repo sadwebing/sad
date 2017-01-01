@@ -132,6 +132,7 @@ INSTALLED_APPS = (
     'hostlist',
     'managekeys',
     'saltstack',
+    'navigation',
 )
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'

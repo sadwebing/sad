@@ -83,6 +83,7 @@
                             {% endfor %}
                         {% endif %}
                     </tbody>
+	<div class="col-sm-9">
             <!-- 分页展示 BEGIN -->
 	    <a id="btn0"></a>
 	    <input id="pageSize" type="text" size="1" maxlength="2" value="getDefaultValue()"/><a> 条 </a> <a href="#" id="pageSizeSet">设置</a> 
@@ -96,6 +97,7 @@
 	    <a>页 </a>
 	    <a  href="#" id="btn5">跳转</a>
             <!-- 分页展示 END -->
+        </div>
             </table>
         </div>
     </div>
@@ -132,7 +134,7 @@
         });
     </script>
 <script type="text/javascript">
-            var pageSize = 15;    //每页显示的记录条数
+            var pageSize = 10;    //每页显示的记录条数
              var curPage=0;        //当前页
              var lastPage;        //最后页
              var direct=0;        //方向
