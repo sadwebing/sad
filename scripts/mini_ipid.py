@@ -10,6 +10,7 @@ from salt.client import LocalClient
 sys.path.append('/usr/local/sadweb')
 from sadweb import settings
 from saltstack.saltapi import SaltAPI
+from sys import exit
 
 class scriptApi(SaltAPI):
     def mini_grains(self, minionid):
@@ -23,6 +24,7 @@ class scriptApi(SaltAPI):
 
 #print settings.DATABASES['default']['HOST']
 
+#获取salt接口，接入rest接口，获取salt信息
 sapi = SaltAPI(
     url=settings.SALT_API['url'],
     username=settings.SALT_API['user'],
@@ -49,34 +51,11 @@ for row in results:
     minionid = row[1]
     minionip = row[2]
     serv_list[minionid] = minionip
-#print serv_list.keys()
-
 ExeSqlInset = '''INSERT INTO `hostlist_idip`
         (`minionid`, `minionip`)
         VALUES
         (%s, %s)'''
-#minionip = '103.250.13.217'
-#minionid = 'WZ_13_218'
 
-#cursor.execute(ExeSqlUpdate)
-#conn.commit()
-#sys.exit(0)
-
-#sapi = scriptApi(url=settings.SALT_API['url'],username=settings.SALT_API['user'],password=settings.SALT_API['password'])
-
-#minionid = "WTT_100_56"
-#minionip = sapi.mini_grains(minionid)['return'][0][minionid]['ipv4'][1]
-#print minionip, minionid
-#cursor = conn.cursor()
-#cursor.execute(ExeSql,(minionid, minionip))
-#conn.commit()
-
-#minions_ipid = IdIp.objects.all()
-#for ipid in minions_ipid:
-#    ipid_dict = {}
-#    id = ipid.minionid
-#    ipid_dict[id] = ipid.minionip
-#    serv_list.append(ipid_dict)
 
 for i in serv_list.keys():
     if i not in minionsall:
@@ -85,8 +64,27 @@ for i in serv_list.keys():
         cursor.execute(ExeSqlDelete)
         conn.commit()
 
+for minionid in minionsdown:
+    if minionid in serv_list.keys():
+        minionip = serv_list[minionid]
+        if minionip != 'minionIsDown':
+            minionip = 'minionIsDown'
+            ExeSqlUpdate = '''UPDATE `hostlist_idip` SET
+                `minionip`="%s" WHERE `minionid`="%s"''' %(minionip, minionid)
+            conn.cursor().execute(ExeSqlUpdate)
+            conn.commit()
+    else:
+        minionip = 'minionIsDown'
+        conn.cursor().execute(ExeSqlInset,(minionid, minionip))
+        conn.commit()
+    #if minionid in serv_list.keys():
+    #   print "%s is in database; MinionIp is %s" %(minionid, serv_list[minionid])
+
 for minionid in minionsup:
-    Ipv4 = sapi.mini_grains(minionid)['return'][0][minionid]['ipv4']
+    try:
+        Ipv4 = sapi.mini_grains(minionid)['return'][0][minionid]['ipv4']
+    except KeyError:
+        Ipv4 = ''
     #print Ipv4
     if minionid in serv_list.keys():
         if '_' in minionid:
@@ -137,14 +135,3 @@ for minionid in minionsup:
         conn.cursor().execute(ExeSqlInset,(minionid, minionip))
         conn.commit()
 
-for minionid in minionsdown:
-    if minionid in serv_list.keys():
-        if serv_list[minionid] != 'minionIsDown':
-            ExeSqlUpdate = '''UPDATE `hostlist_idip` SET
-                `minionip`="%s" WHERE `minionid`="%s"''' %(minionip, minionid)
-            conn.cursor().execute(ExeSqlUpdate)
-            conn.commit()
-    else:
-        minionip = 'minionIsDown'
-        conn.cursor().execute(ExeSqlInset,(minionid, minionip))
-        conn.commit()

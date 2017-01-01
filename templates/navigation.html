@@ -1,0 +1,122 @@
+{% extends "base.html" %}
+{% block title %}TCBS自动化运维平台{% endblock %}
+{% block nav %}
+    <li><a href="{% url 'index' %}"><i class="glyphicon glyphicon-dashboard"></i> 仪表盘<span class="sr-only">(current)</span></a></li>
+    {% comment %}
+    <li><a href="{% url 'asset_list' %}"><i class="glyphicon glyphicon-th-list"></i> 主机列表</a></li>
+    <li><a href="{% url 'repair_data' %}"><i class="glyphicon glyphicon-repeat"></i> 数据修复</a></li>
+    <li><a href="{% url 'record_list' %}"><i class="glyphicon glyphicon-floppy-disk"></i> 操作记录</a></li>
+    {% endcomment %}
+    <li><a href="{% url 'deploy' %}"><i class="glyphicon glyphicon-th-large"></i> SaltStack</a></li>
+    <li><a href="{% url 'keys_show' %}"><i class="glyphicon glyphicon-tags"></i> MinionKeys</a></li>
+    <li class="active"><a href="{% url 'navigation_list' %}"><i class="glyphicon glyphicon-list"></i> 页面导航</a></li>
+{% endblock %}
+{% block content %}
+<!-- 代码 开始 -->
+<div class="metro-layout horizontal">
+        <div class="header">
+                <h1>正式环境</h1>
+                <div class="controls">
+                        <span class="down" title="Scroll down"></span>
+                        <span class="up" title="Scroll up"></span>
+                        <span class="next" title="向右滚动"></span>
+                        <span class="prev" title="向左滚动"></span>
+                        <span class="toggle-view" title="切换滚动方式"></span>
+                </div>
+        </div>
+
+        <div class="content clearfix">
+                <div class="items">
+                        <!-- <a class="box" href="http://www.ag8.com/"><span>B79_NEW_WEB</span><img class="cover" src="/static/img/navigation/images/ag8.jpg" /></a> -->
+                        <a class="box" href="http://www.ag8.com/" style="background: #6b6b6b;"><span>B79_NEW_WEB</span><img class="cover" src="/static/img/navigation/images/ag8.png" /></a>
+                        <a class="box" href="http://office.ag288.net/" style="background: #6b6b6b;"><span>B79_OFFICE</span><img class="icon" src="/static/img/navigation/images/settings.png" /></a>
+                        <a class="box" href="http://gdc.ag288.net/" style="background: #6b6b6b;"><span>GDC</span><img class="icon" src="/static/img/navigation/images/settings.png" /></a>
+                        <a class="box" href="http://www.ag138.com" style="background: #6b6b6b;"><span>P02_NEW_WEB</span><img class="cover" src="/static/img/navigation/images/ag138.png" /></a>
+                        <a class="box" href="http://office.ag138.net/" style="background: #6b6b6b;"><span>P02_OFFICE</span><img class="icon" src="/static/img/navigation/images/settings.png" /></a>
+                        <a class="box" href="http://gdc2.ag288.net/" style="background: #6b6b6b;"><span>GDC_OLD</span><img class="icon" src="/static/img/navigation/images/settings.png" /></a>
+                        <a class="box" href="http://www.agsun0.com" style="background: #f58d00;"><span>P02_WEB</span><img class="icon" src="/static/img/navigation/images/firefox.png" /></a>
+                        <a class="box" href="http://zxzf.ag138.net/" style="background: #6b6b6b;"><span>ZXZF</span><img class="icon" src="/static/img/navigation/images/settings.png" /></a>
+                        <a class="box" href="http://cash.ag288.net/" style="background: #6b6b6b;"><span>CASH</span><img class="icon" src="/static/img/navigation/images/settings.png" /></a>
+                        <a class="box" href="http://message.ag138.net/" style="background: #6b6b6b;"><span>MESSAGE</span><img class="icon" src="/static/img/navigation/images/settings.png" /></a>
+                        <!-- <a class="box height2" href="www.lanrentuku.com/" style="background: #d32c2c;"><span>GMail</span><img class="icon big" src="/static/img/navigation/images/gmail.png" /></a> -->
+                        <a class="box" href="http://gdc.agingames.com:8083/" style="background: #6b6b6b;"><span>HK_GDC</span><img class="icon" src="/static/img/navigation/images/settings.png" /></a>
+                        <a class="box" href="http://data.agingames.com/" style="background: #6b6b6b;"><span>AGIN_data</span><img class="icon" src="/static/img/navigation/images/settings.png" /></a>
+
+                        <a class="box" href="http://www.ag8vip.com" style="background: #f58d00;"><span>B79_VIP_WEB</span><img class="cover" src="/static/img/navigation/images/ag8vip.png" /></a>
+                        <a class="box" href="http://www.ag138vip.com" style="background: #f58d00;"><span>P02_VIP_WEB</span><img class="cover" src="/static/img/navigation/images/ag138vip.png" /></a>
+                        <a class="box" href="http://ag8.ag" style="background: #f58d00;"><span>B79_MOBILE</span><img class="icon" src="/static/img/navigation/images/firefox.png" /></a>
+                        <a class="box" href="http://ag9.ag" style="background: #f58d00;"><span>ag9.ag</span><img class="icon" src="/static/img/navigation/images/firefox.png" /></a>
+                        <a class="box" href="http://agg88.ag" style="background: #f58d00;"><span>agg88.ag</span><img class="icon" src="/static/img/navigation/images/firefox.png" /></a>
+                        <a class="box" href="http://bbs.ag8.com/" style="background: #f58d00;"><span>B79_BBS</span><img class="icon" src="/static/img/navigation/images/firefox.png" /></a>
+                        <a class="box" href="http://bbs.ag138.com/" style="background: #f58d00;"><span>P02_BBS</span><img class="icon" src="/static/img/navigation/images/firefox.png" /></a>
+                        <a class="box" href="http://www.aggtop.com/" style="background: #f58d00;"><span>B79_FENGCAI</span><img class="icon" src="/static/img/navigation/images/firefox.png" /></a>
+                        <a class="box" href="http://sight.ag138.com/" style="background: #f58d00;"><span>YT_SIGHT</span><img class="icon" src="/static/img/navigation/images/firefox.png" /></a>
+                        <a class="box" href="http://www.agaff.com/" style="background: #f58d00;"><span>P02_PARTNER</span><img class="icon" src="/static/img/navigation/images/firefox.png" /></a>
+                        <a class="box" href="http://www.totalcrest.com/" style="background: #6b6b6b;"><span>TOTALCREST</span><img class="cover" src="/static/img/navigation/images/totalcrest.png" /></a>
+                        <a class="box" href="http://www.ytbrand.hk/" style="background: #f58d00;"><span>www.ytbrand.hk</span><img class="cover" src="/static/img/navigation/images/ytbrand.png" /></a>
+                        <a class="box" href="http://www.topcrown.tw/" style="background: #f58d00;"><span>www.topcrown.tw</span><img class="cover" src="/static/img/navigation/images/topcrown.png" /></a>
+                </div>
+        </div>
+        <div class="header">
+                <h1>测试环境</h1>
+                <div class="controls">
+                        <span class="down" title="Scroll down"></span>
+                        <span class="up" title="Scroll up"></span>
+                        <span class="next" title="向右滚动"></span>
+                        <span class="prev" title="向左滚动"></span>
+                        <span class="toggle-view" title="切换滚动方式"></span>
+                </div>
+        </div>
+
+        <div class="content clearfix">
+                <div class="items">
+                        <a class="box" href="http://uatwww.ag288.com/"><span>UAT_B79_NEW_WEB</span><img class="cover" src="/static/img/navigation/images/ag8.jpg" /></a>
+                        <a class="box" href="http://uatoffice.ag288.com/" style="background: #6b6b6b;"><span>UAT_B79_OFFICE</span><img class="icon" src="/static/img/navigation/images/settings.png" /></a>
+                        <a class="box" href="http://uatgdc.ag288.com/" style="background: #6b6b6b;"><span>UAT_GDC</span><img class="icon" src="/static/img/navigation/images/settings.png" /></a>
+                        <a class="box" href="http://uatwww.agg013.com/" style="background: #f58d00;"><span>UAT_P02_NEW_WEB</span><img class="icon" src="/static/img/navigation/images/firefox.png" /></a>
+                        <a class="box" href="http://uatoffice.agg013.com/" style="background: #6b6b6b;"><span>UAT_P02_OFFICE</span><img class="icon" src="/static/img/navigation/images/settings.png" /></a>
+                        <a class="box" href="http://uatzxzfws.agg013.com/" style="background: #6b6b6b;"><span>UAT_ZXZF</span><img class="icon" src="/static/img/navigation/images/settings.png" /></a>
+                        <a class="box" href="http://uatv1.agg013.com/" style="background: #f58d00;"><span>UAT_P02_WEB</span><img class="icon" src="/static/img/navigation/images/firefox.png" /></a>
+                        <a class="box" href="http://uatcash.ag288.com/" style="background: #6b6b6b;"><span>UAT_CASH</span><img class="icon" src="/static/img/navigation/images/settings.png" /></a>
+                        <a class="box" href="http://uatmessage.ag288.com/" style="background: #6b6b6b;"><span>UAT_MESSAGE</span><img class="icon" src="/static/img/navigation/images/settings.png" /></a>
+                        <!-- <a class="box height2" href="www.lanrentuku.com/" style="background: #d32c2c;"><span>GMail</span><img class="icon big" src="/static/img/navigation/images/gmail.png" /></a> -->
+
+                        <a class="box" href="http://uatvip.ag288.com/" style="background: #f58d00;"><span>UAT_B79_VIP_WEB</span><img class="icon" src="/static/img/navigation/images/firefox.png" /></a>
+                        <a class="box" href="http://uatvip.agg013.com/" style="background: #f58d00;"><span>UAT_P02_VIP_WEB</span><img class="icon" src="/static/img/navigation/images/firefox.png" /></a>
+                        <a class="box" href="http://uatm.ag288.com/" style="background: #f58d00;"><span>UAT_B79_MOBILE</span><img class="icon" src="/static/img/navigation/images/firefox.png" /></a>
+                        <a class="box" href="http://uatoldm.ag288.com/" style="background: #f58d00;"><span>UAT_B79_OLD_MOBILE</span><img class="icon" src="/static/img/navigation/images/firefox.png" /></a>
+                        <a class="box" href="http://uatm.agg013.com/" style="background: #f58d00;"><span>UAT_P02_MOBILE</span><img class="icon" src="/static/img/navigation/images/firefox.png" /></a>
+                        <a class="box" href="http://uatbbs.ag288.com/" style="background: #f58d00;"><span>UAT_B79_BBS</span><img class="icon" src="/static/img/navigation/images/firefox.png" /></a>
+                        <a class="box" href="http://uatbbs.agg013.com/" style="background: #f58d00;"><span>UAT_P02_BBS</span><img class="icon" src="/static/img/navigation/images/firefox.png" /></a>
+                        <a class="box" href="http://uatfc.ag288.com/" style="background: #f58d00;"><span>UAT_B79_FENGCAI</span><img class="icon" src="/static/img/navigation/images/firefox.png" /></a>
+                        <a class="box" href="http://uatsight.agg013.com/" style="background: #f58d00;"><span>UAT_YT_SIGHT</span><img class="icon" src="/static/img/navigation/images/firefox.png" /></a>
+                        <a class="box" href="http://uatpartner.agg013.com/" style="background: #f58d00;"><span>UAT_P02_PARTNER</span><img class="icon" src="/static/img/navigation/images/firefox.png" /></a>
+                        <a class="box" href="http://uatwww.totalcrest.com/" style="background: #f58d00;"><span>UAT_TOTALCREST</span><img class="icon" src="/static/img/navigation/images/firefox.png" /></a>
+                        <a class="box" href="http://uatwww.topcrown.tw/" style="background: #f58d00;"><span>uatwww.topcrown.tw</span><img class="icon" src="/static/img/navigation/images/firefox.png" /></a>
+                </div>
+        </div>
+        <div class="header">
+                <h1>运维专用</h1>
+                <div class="controls">
+                        <span class="down" title="Scroll down"></span>
+                        <span class="up" title="Scroll up"></span>
+                        <span class="next" title="向右滚动"></span>
+                        <span class="prev" title="向左滚动"></span>
+                        <span class="toggle-view" title="切换滚动方式"></span>
+                </div>
+        </div>
+
+        <div class="content clearfix">
+                <div class="items">
+                        <a class="box" href="http://172.20.0.184:8090/" style="background: #00a9ec;"><span>WIKI</span><img class="icon" src="/static/img/navigation/images/tasks.png" /></a>
+                        <a class="box" href="http://zabbix.ag866.com" style="background: #f874a4;"><span>zabbix</span><img class="icon" src="/static/img/navigation/images/dribbble.png" /></a>
+                        <a class="box" href="http://sa.agg013.com/" style="background: #f874a4;"><span>SA WorkPage</span><img class="icon" src="/static/img/navigation/images/dribbble.png" /></a>
+                </div>
+        </div>
+</div>
+<!-- 代码结束 -->
+
+
+
+{% endblock %}
+

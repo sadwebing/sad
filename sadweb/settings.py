@@ -20,7 +20,7 @@ DATABASES = {
         # The following settings are not used with sqlite3:
         'USER': 'sadweb',
         'PASSWORD': 'sadweb',
-        'HOST': 'localhost',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
+        'HOST': '192.168.100.109',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
         'PORT': '3306',                      # Set to empty string for default.
     }
 }
@@ -132,6 +132,7 @@ INSTALLED_APPS = (
     'hostlist',
     'managekeys',
     'saltstack',
+    'navigation',
 )
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
@@ -166,7 +167,7 @@ LOGGING = {
 }
 
 SALT_API = {
-    'url':"https://172.20.10.107:8000/",
+    'url':"https://192.168.100.109:8000/",
     'user':"saltapi",
     'password':"ag866.com",
 }
