@@ -102,38 +102,6 @@
             </table>
         </div>
     </div>
-    <script>
-        $(document).ready(function() {
-            $(".form-control").change(function() {
-                var col = $("#select_col").val();
-                var dcen = $("#select_dc").val();
-                var engi = $("#select_eg").val();
-                var checkall_status = document.getElementById("checkall").checked;
-                if (checkall_status === true) {
-                    $("#checkall").attr("checked", false);
-                }
-                $("#trtd").html('<tr><td></td><td class="text-center"><img src="/static/img/dataloading.gif"/></td><td></td></tr>');
-                $.getJSON("{% url 'keys_api' %}", {"col": col, "dcen": dcen, "engi": engi}, function(result) {
-                    $("#trtd").html("");
-                    $.each(result, function(index, value) {
-                        $.each(value, function(ip, id) {
-                            $("#trtd").append('\
-                                <tr id="'+id+'">\
-                                    <td class="text-center">\
-                                        <label>\
-                                            <input name="minion_id" type="checkbox" value="'+id+'">\
-                                        </label>\
-                                    </td>\
-                                    <td class="text-center">'+id+'</td>\
-                                    <td class="text-center">'+ip+'</td>\
-                                </tr>\
-                            ');
-                        });
-                    });
-                });
-            });
-        });
-    </script>
 <script type="text/javascript">
             var pageSize = 10;    //每页显示的记录条数
              var curPage=0;        //当前页
