@@ -1,0 +1,4 @@
+#产品|简称|域名|解析记录
+Others|WIKI|http://172.20.0.184:8090/|172.20.0.184
+Others|zabbix|http://zabbix.ag866.com/|192.168.100.107
+Others|SA_WorkPage|http://sa.agg013.com/|10.252.252.99

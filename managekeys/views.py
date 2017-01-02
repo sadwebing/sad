@@ -31,12 +31,12 @@ def manageMinionKeys(request):
     dc_dict = {}
     engi_dict ={}
 
-    sapi = SaltAPI(
-        url=settings.SALT_API['url'],
-        username=settings.SALT_API['user'],
-        password=settings.SALT_API['password']
-    )
-    minions, minions_pre, minions_rej = sapi.allMinionKeys()
+    #sapi = SaltAPI(
+    #    url=settings.SALT_API['url'],
+    #    username=settings.SALT_API['user'],
+    #    password=settings.SALT_API['password']
+    #)
+    #minions, minions_pre, minions_rej = sapi.allMinionKeys()
     # log.debug(str(minions))
 
     dcs = DataCenter.objects.all()
